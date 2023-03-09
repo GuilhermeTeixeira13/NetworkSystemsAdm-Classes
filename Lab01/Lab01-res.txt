@@ -1,0 +1,69 @@
+Administração de Sistemas em Rede
+
+LAB01
+
+1-
+ 1.1) uname -s
+ 1.2) uname -r
+ 1.3) uname -p
+ 1.4) "lscpu" ou "sysctl -a"
+ 1.5) whoami
+ 1.6) hostname
+ 1.7) who
+
+2-
+ 2.1) cal 11 1986
+ 2.2) cal 2 1955
+ 2.3) cal 1 1960
+ 2.4) cal 4 2020
+ 2.5) cal
+ 2.6) date '+%a %b %Y'
+ 2.7) date '+%r'  // date '+%T'
+
+3) basename "$(pwd)"
+
+4-
+ 4.1) mkdir 45662
+ 4.2) cd 45662
+
+5) cd ..
+ 5.1) l
+
+6) cd /home/guilherme/Desktop/AdmRedes-UBI/Lab01/45662
+ 6.1) rmdir 45662
+
+7) mkdir /home/guilherme/Desktop/AdmRedes-UBI/Lab01/45662 
+
+8) cd
+
+9) rmdir /home/guilherme/Desktop/AdmRedes-UBI/Lab01/45662
+
+10) touch primeiro.txt segundo.txt terceiro.txt
+ 10.1) cat primeiro.txt segundo.txt terceiro.txt
+ 10.2) echo "Olá" > *.txt
+ 10.3) cat primeiro.txt segundo.txt terceiro.txt
+ 10.4) echo "Tudo bem?" >> primeiro.txt
+ 10.5) rm terceiro.txt
+
+11) touch oculto
+ 11.1) cp primeiro.txt oculto
+ 11.2) cat oculto
+ 11.3) ls -a
+
+12) alias mostrasegundo='cat segundo.txt'
+ 12.1) mostrasegundo
+ 12.2) mostrasegundo is an alias for cat segundo.txt
+
+13) cp segundo.txt segundocopia.txt
+ 13.1) mv segundocopia.txt COMPARAR
+
+14) mv oculto COMPARAR
+
+15) diff oculto segundocopia.txt
+ 15.1) echo "Mais conteúdo." >> oculto
+ 15.2) diff oculto segundocopia.txt
+ 15.3) rm -rf COMPARAR
+
+16) mv Lab01 Laboratorio1_ADR
+
+17) cp -r Laboratorio1_ADR Laboratorio1_ADR_backup
