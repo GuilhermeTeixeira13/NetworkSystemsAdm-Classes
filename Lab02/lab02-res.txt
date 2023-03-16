@@ -1,0 +1,53 @@
+Lab02 - Resolução
+
+1)
+name="Gui"
+echo $name
+
+2)
+export AGE=20
+echo $AGE
+
+3)
+Não é possível visualizar as variáveis na nova shell porque
+as variáveis são locais e de ambiente, respectivamente, da shell anterior.
+
+4) exit
+ 4.1) set | less
+ 4.2) env
+
+5) unset name
+   unset AGE
+   set | less
+
+6) echo $PATH
+
+7) which ls
+   which man
+   which cal
+   which pwd
+
+8) mkdir myDir
+   export PATH=$PATH:/path/to/myDir
+   echo $PATH
+
+9) echo "Olá $USER" > myDir/script.sh
+   chmod +x myDir/script.sh
+
+  9.1) ./myDir/script.sh
+  9.2) which script.sh
+
+10) cat ~/.bashrc
+
+11) grep PATH ~/.bashrc
+
+12) history
+
+13) !15
+
+14) history | awk '!x[$0]++'
+
+15) history | grep -v "^ "
+
+16) history -c
+
