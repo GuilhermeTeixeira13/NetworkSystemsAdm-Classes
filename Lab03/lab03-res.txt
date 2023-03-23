@@ -1,0 +1,56 @@
+Lab-03 Resolução
+
+1) ls *
+
+2) ls D*
+
+3) ls D*n*
+
+4) ls /usr/bin/pyd*
+
+5) ls /usr/bin/py*
+
+6) ls /usr/bin/????
+
+7) ls P*
+
+8) ls [TMP]*
+
+9) ls /etc/rc[4-9]*
+
+10) ls [A-J]???*
+
+11) ls D[m-z]???????
+
+12) ls /etc/p*t[1-4]
+
+13) ls rc*[!0-2]*
+
+14) ls -l /usr/bin
+
+15) ls -S /usr/bin
+  15.1) ls -S -r /usr/bin
+
+16) ls -R
+
+17) file /usr/bin/lorder
+
+18) touch -t 202201011200 teste
+  18.1) stat teste
+  
+19) find . -name "*hosts*"
+
+20) find /etc -name "*hosts*"
+
+21) find /etc -type f -mtime -7
+  21.1) find /etc -type f -mmin -45
+
+22) find . -type f -size +512k
+
+23) find . -type f -empty
+
+24) ls -1 /usr/bin | wc -l
+  24.1) ls /usr/bin/*.sh | wc -l
+
+25) rm *.conf
+  25.1) rm -i *.conf
