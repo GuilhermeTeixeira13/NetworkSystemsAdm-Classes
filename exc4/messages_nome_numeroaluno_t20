@@ -1,0 +1,20 @@
+Mar 27 14:33:38 guilherme-VirtualBox gsd-color[10249]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Reloaded configuration
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:33:42 guilherme-VirtualBox systemd[8737]: Starting Tracker metadata database store and lookup manager...
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Reloaded configuration
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: message repeated 3 times: [ [session uid=1000 pid=8790] Reloaded configuration]
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.Tracker1'
+Mar 27 14:33:42 guilherme-VirtualBox systemd[8737]: Started Tracker metadata database store and lookup manager.
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Reloaded configuration
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:33:42 guilherme-VirtualBox systemd[8737]: Starting Tracker metadata extractor...
+Mar 27 14:33:42 guilherme-VirtualBox tracker-extract[57220]: Set scheduler policy to SCHED_IDLE
+Mar 27 14:33:42 guilherme-VirtualBox tracker-extract[57220]: Setting priority nice level to 19
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Mar 27 14:33:42 guilherme-VirtualBox systemd[8737]: Started Tracker metadata extractor.
+Mar 27 14:33:47 guilherme-VirtualBox systemd[1]: Started Run anacron jobs.
+Mar 27 14:33:47 guilherme-VirtualBox anacron[57509]: Anacron 2.3 started on 2023-03-27
+Mar 27 14:33:47 guilherme-VirtualBox anacron[57509]: Normal exit (0 jobs run)
+Mar 27 14:33:47 guilherme-VirtualBox systemd[1]: anacron.service: Succeeded.
+Mar 27 14:33:53 guilherme-VirtualBox systemd[8737]: tracker-extract.service: Succeeded.

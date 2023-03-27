@@ -1,0 +1,1424 @@
+Mar 27 14:16:49 guilherme-VirtualBox rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="617" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1103] hostname: hostname: using hostnamed
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1103] hostname: hostname changed from (none) to "guilherme-VirtualBox"
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1106] dns-mgr[0x5603a1ab3290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1110] manager[0x5603a1acc030]: rfkill: Wi-Fi hardware radio set enabled
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1110] manager[0x5603a1acc030]: rfkill: WWAN hardware radio set enabled
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1214] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1250] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1259] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1270] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1309] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1320] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1339] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1351] manager: Networking is enabled by state file
+Mar 27 14:16:49 guilherme-VirtualBox dbus-daemon[587]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=588 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1361] dhcp-init: Using DHCP client 'internal'
+Mar 27 14:16:49 guilherme-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 27 14:16:49 guilherme-VirtualBox networkd-dispatcher[749]: WARNING: systemd-networkd is not running, output will be incomplete.
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1562] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1563] settings: Loaded settings plugin: keyfile (internal)
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1563] ifupdown: management mode: unmanaged
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <warn>  [1679923009.1574] ifupdown: interfaces file /etc/network/interfaces doesn't exist
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1615] device (lo): carrier: link connected
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1680] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Mar 27 14:16:49 guilherme-VirtualBox dbus-daemon[587]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 27 14:16:49 guilherme-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1821] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Mar 27 14:16:49 guilherme-VirtualBox networkd-dispatcher[607]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Mar 27 14:16:49 guilherme-VirtualBox networkd-dispatcher[607]: Traceback (most recent call last):
+Mar 27 14:16:49 guilherme-VirtualBox networkd-dispatcher[607]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+Mar 27 14:16:49 guilherme-VirtualBox networkd-dispatcher[607]:     self.handle_state(iface_name,
+Mar 27 14:16:49 guilherme-VirtualBox networkd-dispatcher[607]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+Mar 27 14:16:49 guilherme-VirtualBox networkd-dispatcher[607]:     raise UnknownState(operational_state)
+Mar 27 14:16:49 guilherme-VirtualBox networkd-dispatcher[607]: UnknownState: n/a
+Mar 27 14:16:49 guilherme-VirtualBox networkd-dispatcher[607]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='enp0s3', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Mar 27 14:16:49 guilherme-VirtualBox networkd-dispatcher[607]: Traceback (most recent call last):
+Mar 27 14:16:49 guilherme-VirtualBox networkd-dispatcher[607]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+Mar 27 14:16:49 guilherme-VirtualBox networkd-dispatcher[607]:     self.handle_state(iface_name,
+Mar 27 14:16:49 guilherme-VirtualBox networkd-dispatcher[607]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+Mar 27 14:16:49 guilherme-VirtualBox networkd-dispatcher[607]:     raise UnknownState(operational_state)
+Mar 27 14:16:49 guilherme-VirtualBox networkd-dispatcher[607]: UnknownState: n/a
+Mar 27 14:16:49 guilherme-VirtualBox systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.2163] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.2261] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Mar 27 14:16:49 guilherme-VirtualBox kernel: [    6.147564] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar 27 14:16:49 guilherme-VirtualBox kernel: [    6.148014] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Mar 27 14:16:49 guilherme-VirtualBox systemd[1]: logrotate.service: Succeeded.
+Mar 27 14:16:49 guilherme-VirtualBox systemd[1]: Finished Rotate log files.
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <warn>  [1679923009.2697] Error: failed to open /run/network/ifstate
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.2849] device (enp0s3): carrier: link connected
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.2909] modem-manager: ModemManager available
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.2909] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3036] policy: auto-activating connection 'Wired connection 1' (ff72d697-3143-372a-a78c-720e70c79a32)
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3091] device (enp0s3): Activation: starting connection 'Wired connection 1' (ff72d697-3143-372a-a78c-720e70c79a32)
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3107] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3157] manager: NetworkManager state is now CONNECTING
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3212] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3288] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3357] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar 27 14:16:49 guilherme-VirtualBox avahi-daemon[580]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::b17c:6bdc:3d4:ef3a.
+Mar 27 14:16:49 guilherme-VirtualBox avahi-daemon[580]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar 27 14:16:49 guilherme-VirtualBox avahi-daemon[580]: Registering new address record for fe80::b17c:6bdc:3d4:ef3a on enp0s3.*.
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3532] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3533] dhcp4 (enp0s3): option domain_name_servers  => '10.42.0.1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3533] dhcp4 (enp0s3): option expiry               => '1680009409'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3533] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3533] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3533] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3533] dhcp4 (enp0s3): option requested_domain_name => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3533] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3533] dhcp4 (enp0s3): option requested_domain_search => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3533] dhcp4 (enp0s3): option requested_host_name  => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3533] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3533] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3536] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3539] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3540] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3540] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3541] dhcp4 (enp0s3): option requested_root_path  => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3542] dhcp4 (enp0s3): option requested_routers    => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3543] dhcp4 (enp0s3): option requested_static_routes => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3543] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3543] dhcp4 (enp0s3): option requested_time_offset => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3545] dhcp4 (enp0s3): option requested_wpad       => '1'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3545] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3545] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3545] dhcp4 (enp0s3): state changed unknown -> bound
+Mar 27 14:16:49 guilherme-VirtualBox avahi-daemon[580]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar 27 14:16:49 guilherme-VirtualBox avahi-daemon[580]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar 27 14:16:49 guilherme-VirtualBox avahi-daemon[580]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3610] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3706] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3717] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3755] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3843] manager: NetworkManager state is now CONNECTED_SITE
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.3858] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.4039] device (enp0s3): Activation: successful, device activated.
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.4278] manager: startup complete
+Mar 27 14:16:49 guilherme-VirtualBox systemd[1]: Finished Network Manager Wait Online.
+Mar 27 14:16:49 guilherme-VirtualBox systemd[1]: Reached target Network is Online.
+Mar 27 14:16:49 guilherme-VirtualBox systemd[1]: Starting Tool to automatically collect and submit kernel crash signatures...
+Mar 27 14:16:49 guilherme-VirtualBox systemd[1]: Condition check resulted in Ubuntu Advantage GCP Auto Attach Daemon being skipped.
+Mar 27 14:16:49 guilherme-VirtualBox systemd[1]: Started crash report submission daemon.
+Mar 27 14:16:49 guilherme-VirtualBox systemd[1]: kerneloops.service: Found left-over process 798 (kerneloops) in control group while starting unit. Ignoring.
+Mar 27 14:16:49 guilherme-VirtualBox systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Mar 27 14:16:49 guilherme-VirtualBox whoopsie[786]: [14:16:49] Using lock path: /var/lock/whoopsie/lock
+Mar 27 14:16:49 guilherme-VirtualBox systemd[1]: Started Tool to automatically collect and submit kernel crash signatures.
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.6105] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar 27 14:16:49 guilherme-VirtualBox whoopsie[786]: [14:16:49] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Mar 27 14:16:49 guilherme-VirtualBox whoopsie[786]: [14:16:49] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Mar 27 14:16:49 guilherme-VirtualBox whoopsie[786]: [14:16:49] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Mar 27 14:16:49 guilherme-VirtualBox vboxadd[629]: VirtualBox Guest Additions: Starting.
+Mar 27 14:16:49 guilherme-VirtualBox vboxadd[877]: VirtualBox Guest Additions: Building the VirtualBox Guest Additions kernel
+Mar 27 14:16:49 guilherme-VirtualBox vboxadd[877]: modules.  This may take a while.
+Mar 27 14:16:49 guilherme-VirtualBox vboxadd[879]: VirtualBox Guest Additions: To build modules for other installed kernels, run
+Mar 27 14:16:49 guilherme-VirtualBox vboxadd[881]: VirtualBox Guest Additions:   /sbin/rcvboxadd quicksetup <version>
+Mar 27 14:16:49 guilherme-VirtualBox vboxadd[883]: VirtualBox Guest Additions: or
+Mar 27 14:16:49 guilherme-VirtualBox vboxadd[886]: VirtualBox Guest Additions:   /sbin/rcvboxadd quicksetup all
+Mar 27 14:16:50 guilherme-VirtualBox avahi-daemon[580]: Server startup complete. Host name is guilherme-VirtualBox.local. Local service cookie is 992171534.
+Mar 27 14:16:50 guilherme-VirtualBox snapd[620]: overlord.go:268: Acquiring state lock file
+Mar 27 14:16:50 guilherme-VirtualBox snapd[620]: overlord.go:273: Acquired state lock file
+Mar 27 14:16:50 guilherme-VirtualBox snapd[620]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/20.04 (amd64) linux/5.15.0-46-generic.
+Mar 27 14:16:50 guilherme-VirtualBox kernel: [    7.512447] loop19: detected capacity change from 0 to 8
+Mar 27 14:16:50 guilherme-VirtualBox systemd[1]: tmp-syscheck\x2dmountpoint\x2d374571941.mount: Succeeded.
+Mar 27 14:16:50 guilherme-VirtualBox snapd[620]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+Mar 27 14:16:50 guilherme-VirtualBox snapd[620]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+Mar 27 14:16:50 guilherme-VirtualBox systemd[1]: Started Snap Daemon.
+Mar 27 14:16:50 guilherme-VirtualBox systemd[1]: Starting Wait until snapd is fully seeded...
+Mar 27 14:16:50 guilherme-VirtualBox dbus-daemon[587]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.25' (uid=0 pid=620 comm="/usr/lib/snapd/snapd " label="unconfined")
+Mar 27 14:16:50 guilherme-VirtualBox systemd[1]: Starting Time & Date Service...
+Mar 27 14:16:51 guilherme-VirtualBox dbus-daemon[587]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Mar 27 14:16:51 guilherme-VirtualBox systemd[1]: Started Time & Date Service.
+Mar 27 14:16:51 guilherme-VirtualBox systemd[1]: Finished Wait until snapd is fully seeded.
+Mar 27 14:16:51 guilherme-VirtualBox systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+Mar 27 14:16:51 guilherme-VirtualBox ModemManager[703]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Mar 27 14:16:53 guilherme-VirtualBox systemd[1]: dmesg.service: Succeeded.
+Mar 27 14:16:57 guilherme-VirtualBox vboxadd[2950]: VirtualBox Guest Additions: Running kernel modules will not be replaced until
+Mar 27 14:16:57 guilherme-VirtualBox vboxadd[2950]: the system is restarted
+Mar 27 14:16:58 guilherme-VirtualBox systemd[1]: Finished vboxadd.service.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[1]: Starting GNOME Display Manager...
+Mar 27 14:16:58 guilherme-VirtualBox systemd[1]: Starting vboxadd-service.service...
+Mar 27 14:16:58 guilherme-VirtualBox vboxadd-service[3134]: vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Mar 27 14:16:58 guilherme-VirtualBox vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Mar 27 14:16:58 guilherme-VirtualBox kernel: [   15.367319] 13:16:58.455348 main     VBoxService 6.1.26 r145957 (verbosity: 0) linux.amd64 (Jul 28 2021 18:25:57) release log
+Mar 27 14:16:58 guilherme-VirtualBox kernel: [   15.367319] 13:16:58.455354 main     Log opened 2023-03-27T13:16:58.454972000Z
+Mar 27 14:16:58 guilherme-VirtualBox kernel: [   15.367396] 13:16:58.455489 main     OS Product: Linux
+Mar 27 14:16:58 guilherme-VirtualBox kernel: [   15.367422] 13:16:58.455524 main     OS Release: 5.15.0-46-generic
+Mar 27 14:16:58 guilherme-VirtualBox kernel: [   15.367445] 13:16:58.455549 main     OS Version: #49~20.04.1-Ubuntu SMP Thu Aug 4 19:15:44 UTC 2022
+Mar 27 14:16:58 guilherme-VirtualBox kernel: [   15.367492] 13:16:58.455572 main     Executable: /opt/VBoxGuestAdditions-6.1.26/sbin/VBoxService
+Mar 27 14:16:58 guilherme-VirtualBox kernel: [   15.367492] 13:16:58.455573 main     Process ID: 3144
+Mar 27 14:16:58 guilherme-VirtualBox kernel: [   15.367492] 13:16:58.455573 main     Package type: LINUX_64BITS_GENERIC
+Mar 27 14:16:58 guilherme-VirtualBox systemd[1]: Started GNOME Display Manager.
+Mar 27 14:16:58 guilherme-VirtualBox kernel: [   15.368845] 13:16:58.456916 main     6.1.26 r145957 started. Verbose level = 0
+Mar 27 14:16:58 guilherme-VirtualBox vboxadd-service.sh: VirtualBox Guest Addition service started.
+Mar 27 14:16:58 guilherme-VirtualBox kernel: [   15.372222] 13:16:58.460276 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Mar 27 14:16:58 guilherme-VirtualBox systemd[1]: Started vboxadd-service.service.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[1]: Received SIGRTMIN+21 from PID 308 (plymouthd).
+Mar 27 14:16:58 guilherme-VirtualBox systemd[1]: Created slice User Slice of UID 125.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[1]: Starting User Runtime Directory /run/user/125...
+Mar 27 14:16:58 guilherme-VirtualBox systemd[1]: Finished User Runtime Directory /run/user/125.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[1]: Starting User Manager for UID 125...
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Started Pending report trigger for Ubuntu Report.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Reached target Paths.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Reached target Timers.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Starting D-Bus User Message Bus Socket.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Listening on GnuPG network certificate management daemon.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Listening on debconf communication socket.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Listening on Sound System.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Listening on REST API socket for snapd user session agent.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Listening on D-Bus User Message Bus Socket.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Reached target Sockets.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Reached target Basic System.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[1]: Started User Manager for UID 125.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[1]: Started Session c1 of user gdm.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Starting Sound Service...
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Starting Tracker metadata extractor...
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Starting Tracker file system data miner...
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Started D-Bus User Message Bus.
+Mar 27 14:16:58 guilherme-VirtualBox tracker-miner-f[3267]: Set scheduler policy to SCHED_IDLE
+Mar 27 14:16:58 guilherme-VirtualBox tracker-miner-f[3267]: Setting priority nice level to 19
+Mar 27 14:16:58 guilherme-VirtualBox tracker-extract[3266]: Set scheduler policy to SCHED_IDLE
+Mar 27 14:16:58 guilherme-VirtualBox tracker-extract[3266]: Setting priority nice level to 19
+Mar 27 14:16:58 guilherme-VirtualBox dbus-daemon[587]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.33' (uid=125 pid=3265 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+Mar 27 14:16:58 guilherme-VirtualBox systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+Mar 27 14:16:58 guilherme-VirtualBox dbus-daemon[587]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Mar 27 14:16:58 guilherme-VirtualBox rtkit-daemon[3280]: Successfully called chroot.
+Mar 27 14:16:58 guilherme-VirtualBox rtkit-daemon[3280]: Successfully dropped privileges.
+Mar 27 14:16:58 guilherme-VirtualBox rtkit-daemon[3280]: Successfully limited resources.
+Mar 27 14:16:58 guilherme-VirtualBox rtkit-daemon[3280]: Running.
+Mar 27 14:16:58 guilherme-VirtualBox rtkit-daemon[3280]: Watchdog thread running.
+Mar 27 14:16:58 guilherme-VirtualBox rtkit-daemon[3280]: Canary thread running.
+Mar 27 14:16:58 guilherme-VirtualBox systemd[1]: Started RealtimeKit Scheduling Policy Service.
+Mar 27 14:16:58 guilherme-VirtualBox rtkit-daemon[3280]: Successfully made thread 3265 of process 3265 owned by '125' high priority at nice level -11.
+Mar 27 14:16:58 guilherme-VirtualBox rtkit-daemon[3280]: Supervising 1 threads of 1 processes of 1 users.
+Mar 27 14:16:58 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] AppArmor D-Bus mediation is enabled
+Mar 27 14:16:58 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.2' (uid=125 pid=3267 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Starting Virtual filesystem service...
+Mar 27 14:16:58 guilherme-VirtualBox pulseaudio[3265]: Disabling timer-based scheduling because running inside a VM.
+Mar 27 14:16:58 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Successfully activated service 'org.gtk.vfs.Daemon'
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Started Virtual filesystem service.
+Mar 27 14:16:58 guilherme-VirtualBox rtkit-daemon[3280]: Supervising 1 threads of 1 processes of 1 users.
+Mar 27 14:16:58 guilherme-VirtualBox rtkit-daemon[3280]: Successfully made thread 3327 of process 3265 owned by '125' RT at priority 5.
+Mar 27 14:16:58 guilherme-VirtualBox rtkit-daemon[3280]: Supervising 2 threads of 1 processes of 1 users.
+Mar 27 14:16:58 guilherme-VirtualBox pulseaudio[3265]: Disabling timer-based scheduling because running inside a VM.
+Mar 27 14:16:58 guilherme-VirtualBox rtkit-daemon[3280]: Supervising 2 threads of 1 processes of 1 users.
+Mar 27 14:16:58 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.freedesktop.systemd1' requested by ':1.0' (uid=125 pid=3291 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Mar 27 14:16:58 guilherme-VirtualBox rtkit-daemon[3280]: Successfully made thread 3333 of process 3265 owned by '125' RT at priority 5.
+Mar 27 14:16:58 guilherme-VirtualBox tracker-miner-f[3267]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+Mar 27 14:16:58 guilherme-VirtualBox rtkit-daemon[3280]: Supervising 3 threads of 1 processes of 1 users.
+Mar 27 14:16:58 guilherme-VirtualBox tracker-miner-f[3267]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+Mar 27 14:16:58 guilherme-VirtualBox tracker-miner-f[3267]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+Mar 27 14:16:58 guilherme-VirtualBox tracker-miner-f[3267]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+Mar 27 14:16:58 guilherme-VirtualBox tracker-miner-f[3267]: Unable to get XDG user directory path for special directory &DOWNLOAD. Ignoring this location.
+Mar 27 14:16:58 guilherme-VirtualBox tracker-miner-f[3267]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+Mar 27 14:16:58 guilherme-VirtualBox tracker-miner-f[3267]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+Mar 27 14:16:58 guilherme-VirtualBox tracker-miner-f[3267]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+Mar 27 14:16:58 guilherme-VirtualBox tracker-miner-f[3267]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+Mar 27 14:16:58 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.2' (uid=125 pid=3267 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:16:58 guilherme-VirtualBox systemd[3219]: Starting Virtual filesystem service - disk device monitor...
+Mar 27 14:16:58 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Mar 27 14:16:58 guilherme-VirtualBox dbus-daemon[587]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.38' (uid=125 pid=3265 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+Mar 27 14:16:58 guilherme-VirtualBox systemd[1]: Condition check resulted in Bluetooth service being skipped.
+Mar 27 14:16:59 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.freedesktop.systemd1' requested by ':1.1' (uid=125 pid=3291 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Mar 27 14:16:59 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Mar 27 14:16:59 guilherme-VirtualBox gnome-session[3291]: gnome-session-binary[3291]: WARNING: Falling back to non-systemd startup procedure due to error: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Mar 27 14:16:59 guilherme-VirtualBox gnome-session-binary[3291]: WARNING: Falling back to non-systemd startup procedure due to error: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Mar 27 14:16:59 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.freedesktop.systemd1' requested by ':1.1' (uid=125 pid=3291 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Mar 27 14:16:59 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Mar 27 14:16:59 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.freedesktop.systemd1' requested by ':1.1' (uid=125 pid=3291 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Mar 27 14:16:59 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Mar 27 14:16:59 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.freedesktop.systemd1' requested by ':1.1' (uid=125 pid=3291 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Mar 27 14:16:59 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Mar 27 14:16:59 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.freedesktop.systemd1' requested by ':1.1' (uid=125 pid=3291 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Mar 27 14:16:59 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Started Sound Service.
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Started Virtual filesystem service - disk device monitor.
+Mar 27 14:16:59 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.freedesktop.systemd1' requested by ':1.1' (uid=125 pid=3291 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Mar 27 14:16:59 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.2' (uid=125 pid=3267 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Activating service name='org.gnome.OnlineAccounts' requested by ':1.8' (uid=125 pid=3388 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+Mar 27 14:16:59 guilherme-VirtualBox goa-daemon[3395]: goa-daemon version 3.36.1 starting
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Activating service name='org.gnome.Identity' requested by ':1.9' (uid=125 pid=3395 comm="/usr/libexec/goa-daemon " label="unconfined")
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Successfully activated service 'org.gnome.OnlineAccounts'
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.2' (uid=125 pid=3267 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Successfully activated service 'org.gnome.Identity'
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Started Virtual filesystem service - Apple File Conduit monitor.
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.2' (uid=125 pid=3267 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Starting Virtual filesystem service - digital camera monitor...
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Started Virtual filesystem service - digital camera monitor.
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.2' (uid=125 pid=3267 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[587]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.42' (uid=125 pid=3267 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:16:59 guilherme-VirtualBox systemd[1]: Starting Daemon for power management...
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[587]: [system] Successfully activated service 'org.freedesktop.UPower'
+Mar 27 14:16:59 guilherme-VirtualBox systemd[1]: Started Daemon for power management.
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Started Tracker metadata extractor.
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=125 pid=3267 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Starting Tracker metadata database store and lookup manager...
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Started Tracker file system data miner.
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Reached target Main User Target.
+Mar 27 14:16:59 guilherme-VirtualBox dbus-daemon[3273]: [session uid=125 pid=3273] Successfully activated service 'org.freedesktop.Tracker1'
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Started Tracker metadata database store and lookup manager.
+Mar 27 14:16:59 guilherme-VirtualBox systemd[3219]: Startup finished in 1.260s.
+Mar 27 14:16:59 guilherme-VirtualBox kernel: [   16.890275] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:16:59 guilherme-VirtualBox kernel: [   16.890327] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:00 guilherme-VirtualBox kernel: [   16.914380] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:00 guilherme-VirtualBox kernel: [   16.914412] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:00 guilherme-VirtualBox gnome-shell[3408]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: No matching EGL configs
+Mar 27 14:17:00 guilherme-VirtualBox systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 27 14:17:00 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.freedesktop.systemd1' requested by ':1.1' (uid=125 pid=3291 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Mar 27 14:17:00 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Mar 27 14:17:00 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.freedesktop.systemd1' requested by ':1.1' (uid=125 pid=3291 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Mar 27 14:17:00 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Mar 27 14:17:00 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.freedesktop.systemd1' requested by ':1.1' (uid=125 pid=3291 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Mar 27 14:17:00 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Mar 27 14:17:00 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.freedesktop.systemd1' requested by ':1.1' (uid=125 pid=3291 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Mar 27 14:17:00 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Mar 27 14:17:00 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.a11y.Bus' requested by ':1.3' (uid=125 pid=3408 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 27 14:17:00 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Successfully activated service 'org.a11y.Bus'
+Mar 27 14:17:00 guilherme-VirtualBox gnome-shell[3408]: Some code accessed the property 'CredentialManager' on the module 'credentialManager'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Mar 27 14:17:01 guilherme-VirtualBox CRON[3829]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 27 14:17:01 guilherme-VirtualBox gnome-shell[3408]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+Mar 27 14:17:01 guilherme-VirtualBox gnome-shell[3408]: Will monitor session c1
+Mar 27 14:17:01 guilherme-VirtualBox dbus-daemon[587]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.44' (uid=125 pid=3408 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 27 14:17:01 guilherme-VirtualBox systemd[1]: Starting Locale Service...
+Mar 27 14:17:01 guilherme-VirtualBox dbus-daemon[587]: [system] Successfully activated service 'org.freedesktop.locale1'
+Mar 27 14:17:01 guilherme-VirtualBox systemd[1]: Started Locale Service.
+Mar 27 14:17:01 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.freedesktop.portal.IBus' requested by ':1.5' (uid=125 pid=3858 comm="ibus-daemon --panel disable " label="unconfined")
+Mar 27 14:17:01 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Successfully activated service 'org.freedesktop.portal.IBus'
+Mar 27 14:17:01 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.2' (uid=125 pid=3408 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 27 14:17:01 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Mar 27 14:17:02 guilherme-VirtualBox dbus-daemon[587]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.44' (uid=125 pid=3408 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 27 14:17:02 guilherme-VirtualBox systemd[1]: Starting Location Lookup Service...
+Mar 27 14:17:02 guilherme-VirtualBox dbus-daemon[587]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.44' (uid=125 pid=3408 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 27 14:17:02 guilherme-VirtualBox systemd[1]: Starting PackageKit Daemon...
+Mar 27 14:17:02 guilherme-VirtualBox PackageKit: daemon start
+Mar 27 14:17:02 guilherme-VirtualBox dbus-daemon[587]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+Mar 27 14:17:02 guilherme-VirtualBox systemd[1]: Started Location Lookup Service.
+Mar 27 14:17:02 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.gnome.Shell.Notifications' requested by ':1.2' (uid=125 pid=3408 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 27 14:17:02 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3626]: dbus-daemon[3626]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=125 pid=3408 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 27 14:17:02 guilherme-VirtualBox dbus-daemon[587]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Mar 27 14:17:02 guilherme-VirtualBox systemd[1]: Started PackageKit Daemon.
+Mar 27 14:17:02 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3626]: dbus-daemon[3626]: Successfully activated service 'org.a11y.atspi.Registry'
+Mar 27 14:17:02 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[4106]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Mar 27 14:17:02 guilherme-VirtualBox gnome-shell[3408]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Mar 27 14:17:02 guilherme-VirtualBox kernel: [   19.659236] rfkill: input handler disabled
+Mar 27 14:17:02 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.freedesktop.systemd1' requested by ':1.11' (uid=125 pid=4120 comm="/usr/libexec/gsd-sharing " label="unconfined")
+Mar 27 14:17:02 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Mar 27 14:17:02 guilherme-VirtualBox gsd-sharing[4120]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Mar 27 14:17:02 guilherme-VirtualBox gsd-sharing[4120]: message repeated 3 times: [ Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1]
+Mar 27 14:17:02 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Successfully activated service 'org.gnome.Shell.Notifications'
+Mar 27 14:17:02 guilherme-VirtualBox kernel: [   19.809188] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:02 guilherme-VirtualBox kernel: [   19.809235] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:03 guilherme-VirtualBox gnome-shell[3408]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Mar 27 14:17:03 guilherme-VirtualBox gnome-shell[3408]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Mar 27 14:17:03 guilherme-VirtualBox dbus-daemon[587]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.44' (uid=125 pid=3408 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 27 14:17:03 guilherme-VirtualBox systemd[1]: Starting Fingerprint Authentication Daemon...
+Mar 27 14:17:03 guilherme-VirtualBox dbus-daemon[587]: [system] Successfully activated service 'net.reactivated.Fprint'
+Mar 27 14:17:03 guilherme-VirtualBox systemd[1]: Started Fingerprint Authentication Daemon.
+Mar 27 14:17:03 guilherme-VirtualBox gnome-shell[3408]: Getting invalid resource scale property
+Mar 27 14:17:03 guilherme-VirtualBox gnome-shell[3408]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Mar 27 14:17:03 guilherme-VirtualBox gnome-shell[3408]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Mar 27 14:17:03 guilherme-VirtualBox gnome-shell[3408]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Mar 27 14:17:03 guilherme-VirtualBox gnome-shell[3408]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Mar 27 14:17:03 guilherme-VirtualBox dbus-daemon[587]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service' requested by ':1.58' (uid=125 pid=4135 comm="/usr/libexec/gsd-color " label="unconfined")
+Mar 27 14:17:03 guilherme-VirtualBox systemd[1]: Starting Manage, Install and Generate Color Profiles...
+Mar 27 14:17:03 guilherme-VirtualBox colord[4485]: failed to get edid data: EDID length is too small
+Mar 27 14:17:03 guilherme-VirtualBox dbus-daemon[587]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+Mar 27 14:17:03 guilherme-VirtualBox systemd[1]: Started Manage, Install and Generate Color Profiles.
+Mar 27 14:17:03 guilherme-VirtualBox gsd-media-keys[4173]: Failed to grab accelerator for keybinding settings:playback-random
+Mar 27 14:17:03 guilherme-VirtualBox gsd-media-keys[4173]: Failed to grab accelerator for keybinding settings:rfkill
+Mar 27 14:17:03 guilherme-VirtualBox gsd-media-keys[4173]: Failed to grab accelerator for keybinding settings:hibernate
+Mar 27 14:17:03 guilherme-VirtualBox gsd-media-keys[4173]: Failed to grab accelerator for keybinding settings:playback-repeat
+Mar 27 14:17:04 guilherme-VirtualBox gnome-shell[3408]: Not starting gsd-xsettings; waiting for gnome-session to do so
+Mar 27 14:17:04 guilherme-VirtualBox gnome-shell[3408]: Registering session with GDM
+Mar 27 14:17:04 guilherme-VirtualBox systemd[1]: Received SIGRTMIN+21 from PID 308 (plymouthd).
+Mar 27 14:17:04 guilherme-VirtualBox systemd[1]: plymouth-start.service: Succeeded.
+Mar 27 14:17:04 guilherme-VirtualBox systemd[1]: plymouth-quit-wait.service: Succeeded.
+Mar 27 14:17:04 guilherme-VirtualBox systemd[1]: Finished Hold until boot process finishes up.
+Mar 27 14:17:04 guilherme-VirtualBox systemd[1]: Reached target Multi-User System.
+Mar 27 14:17:04 guilherme-VirtualBox systemd[1]: Reached target Graphical Interface.
+Mar 27 14:17:04 guilherme-VirtualBox systemd[1]: Starting Set console scheme...
+Mar 27 14:17:04 guilherme-VirtualBox systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 27 14:17:04 guilherme-VirtualBox systemd[1]: Finished Set console scheme.
+Mar 27 14:17:04 guilherme-VirtualBox systemd[1]: Created slice system-getty.slice.
+Mar 27 14:17:04 guilherme-VirtualBox systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Mar 27 14:17:04 guilherme-VirtualBox systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Mar 27 14:17:04 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Activating service name='org.freedesktop.portal.IBus' requested by ':1.32' (uid=125 pid=4498 comm="ibus-daemon --panel disable -r --xim " label="unconfined")
+Mar 27 14:17:04 guilherme-VirtualBox gnome-session-binary[3291]: Entering running state
+Mar 27 14:17:04 guilherme-VirtualBox xbrlapi.desktop[4542]: openConnection: connect: No such file or directory
+Mar 27 14:17:04 guilherme-VirtualBox xbrlapi.desktop[4542]: cannot connect to braille devices daemon brltty at :0
+Mar 27 14:17:04 guilherme-VirtualBox /usr/lib/gdm3/gdm-wayland-session[3289]: dbus-daemon[3289]: [session uid=125 pid=3289] Successfully activated service 'org.freedesktop.portal.IBus'
+Mar 27 14:17:04 guilherme-VirtualBox kernel: [   21.259850] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:04 guilherme-VirtualBox kernel: [   21.259902] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:04 guilherme-VirtualBox gsd-color[4135]: failed to get edid: unable to get EDID for output
+Mar 27 14:17:04 guilherme-VirtualBox gsd-color[4135]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Mar 27 14:17:08 guilherme-VirtualBox org.gnome.Shell.desktop[6055]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Mar 27 14:17:08 guilherme-VirtualBox org.gnome.Shell.desktop[6055]: > Warning:          Unsupported maximum keycode 569, clipping.
+Mar 27 14:17:08 guilherme-VirtualBox org.gnome.Shell.desktop[6055]: >                   X11 cannot support keycodes above 255.
+Mar 27 14:17:08 guilherme-VirtualBox org.gnome.Shell.desktop[6055]: > Internal error:   Could not resolve keysym Invalid
+Mar 27 14:17:08 guilherme-VirtualBox org.gnome.Shell.desktop[6055]: Errors from xkbcomp are not fatal to the X server
+Mar 27 14:17:09 guilherme-VirtualBox gnome-shell[3408]: Warning: Failed to start gsd-xsettings
+Mar 27 14:17:09 guilherme-VirtualBox gnome-shell[3408]: JS WARNING: [resource:///org/gnome/shell/ui/layout.js 24]: reference to undefined property "MetaWindowXwayland"
+Mar 27 14:17:10 guilherme-VirtualBox systemd[3219]: tracker-extract.service: Succeeded.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[1]: Created slice User Slice of UID 1000.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[1]: Starting User Runtime Directory /run/user/1000...
+Mar 27 14:17:17 guilherme-VirtualBox systemd[1]: Finished User Runtime Directory /run/user/1000.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[1]: Starting User Manager for UID 1000...
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Started Pending report trigger for Ubuntu Report.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Reached target Paths.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Reached target Timers.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Starting D-Bus User Message Bus Socket.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Listening on GnuPG network certificate management daemon.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Listening on debconf communication socket.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Listening on Sound System.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Listening on REST API socket for snapd user session agent.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Listening on D-Bus User Message Bus Socket.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Reached target Sockets.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Reached target Basic System.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[1]: Started User Manager for UID 1000.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[1]: Started Session 3 of user guilherme.
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Starting Sound Service...
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Starting Tracker metadata extractor...
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Starting Tracker file system data miner...
+Mar 27 14:17:17 guilherme-VirtualBox tracker-miner-f[8779]: Set scheduler policy to SCHED_IDLE
+Mar 27 14:17:17 guilherme-VirtualBox tracker-miner-f[8779]: Setting priority nice level to 19
+Mar 27 14:17:17 guilherme-VirtualBox tracker-extract[8778]: Set scheduler policy to SCHED_IDLE
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Started D-Bus User Message Bus.
+Mar 27 14:17:17 guilherme-VirtualBox tracker-extract[8778]: Setting priority nice level to 19
+Mar 27 14:17:17 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] AppArmor D-Bus mediation is enabled
+Mar 27 14:17:17 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Starting Virtual filesystem service...
+Mar 27 14:17:17 guilherme-VirtualBox systemd[1]: systemd-fsckd.service: Succeeded.
+Mar 27 14:17:17 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gtk.vfs.Daemon'
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Started Virtual filesystem service.
+Mar 27 14:17:17 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Starting Virtual filesystem service - disk device monitor...
+Mar 27 14:17:17 guilherme-VirtualBox kernel: [   34.754809] rfkill: input handler enabled
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (--) Log file renamed from "/home/guilherme/.local/share/xorg/Xorg.pid-8842.log" to "/home/guilherme/.local/share/xorg/Xorg.0.log"
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: X.Org X Server 1.20.13
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: X Protocol Version 11, Revision 0
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: Build Operating System: linux Ubuntu
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: Current Operating System: Linux guilherme-VirtualBox 5.15.0-46-generic #49~20.04.1-Ubuntu SMP Thu Aug 4 19:15:44 UTC 2022 x86_64
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-46-generic root=UUID=10fbfe84-110b-446d-bd3c-72d4277f1f49 ro quiet splash
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: Build Date: 06 July 2022  01:53:24PM
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: xorg-server 2:1.20.13-1ubuntu1~20.04.3 (For technical support please see http://www.ubuntu.com/support)
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: Current version of pixman: 0.38.4
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011Before reporting problems, check http://wiki.x.org
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011to make sure that you have the latest version.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: Markers: (--) probed, (**) from config file, (==) default setting,
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011(++) from command line, (!!) notice, (II) informational,
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) Log file: "/home/guilherme/.local/share/xorg/Xorg.0.log", Time: Mon Mar 27 14:17:17 2023
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) No Layout section.  Using the first Screen section.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) No screen section available. Using defaults.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) |-->Screen "Default Screen Section" (0)
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) |   |-->Monitor "<default monitor>"
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) No monitor specified for screen "Default Screen Section".
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011Using a default monitor configuration.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) Automatically adding devices
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) Automatically enabling devices
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) Automatically adding GPU devices
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) Automatically binding GPU devices
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) Max clients allowed: 256, resource mask: 0x1fffff
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011Entry deleted from font path.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011Entry deleted from font path.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011Entry deleted from font path.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011Entry deleted from font path.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011Entry deleted from font path.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) FontPath set to:
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011/usr/share/fonts/X11/misc,
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011/usr/share/fonts/X11/Type1,
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011built-ins
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) ModulePath set to "/usr/lib/xorg/modules"
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) The server relies on udev to provide the list of input devices.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011If no devices become available, reconfigure udev or disable AutoAddDevices.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Loader magic: 0x556774118020
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Module ABI versions:
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011X.Org ANSI C Emulation: 0.4
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011X.Org Video Driver: 24.1
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011X.Org XInput driver : 24.1
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011X.Org Server Extension : 10.0
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (++) using VT number 2
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) systemd-logind: took control of session /org/freedesktop/login1/session/_33
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) xfree86: Adding drm device (/dev/dri/card0)
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 12 paused 0
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (--) PCI:*(0@0:2:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xe0000000/16777216, 0xf0000000/2097152, I/O @ 0x0000d010/16, BIOS @ 0x????????/131072
+Mar 27 14:17:17 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Started Virtual filesystem service - disk device monitor.
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) LoadModule: "glx"
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Module glx: vendor="X.Org Foundation"
+Mar 27 14:17:17 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011compiled for 1.20.13, module version = 1.0.0
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011ABI class: X.Org Server Extension, version 10.0
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) Matched vmware as autoconfigured driver 0
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) Matched modesetting as autoconfigured driver 1
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) Matched fbdev as autoconfigured driver 2
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) Matched vesa as autoconfigured driver 3
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) Assigned the driver to the xf86ConfigLayout
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) LoadModule: "vmware"
+Mar 27 14:17:17 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Loading /usr/lib/xorg/modules/drivers/vmware_drv.so
+Mar 27 14:17:17 guilherme-VirtualBox systemd[8737]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Mar 27 14:17:17 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating service name='org.gnome.OnlineAccounts' requested by ':1.6' (uid=1000 pid=8851 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+Mar 27 14:17:18 guilherme-VirtualBox rtkit-daemon[3280]: Successfully made thread 8775 of process 8775 owned by '1000' high priority at nice level -11.
+Mar 27 14:17:18 guilherme-VirtualBox rtkit-daemon[3280]: Supervising 4 threads of 2 processes of 2 users.
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Module vmware: vendor="X.Org Foundation"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011compiled for 1.20.8, module version = 13.3.0
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011Module class: X.Org Video Driver
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011ABI class: X.Org Video Driver, version 24.1
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) LoadModule: "modesetting"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Module modesetting: vendor="X.Org Foundation"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011compiled for 1.20.13, module version = 1.20.13
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011Module class: X.Org Video Driver
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011ABI class: X.Org Video Driver, version 24.1
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) LoadModule: "fbdev"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Module fbdev: vendor="X.Org Foundation"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011compiled for 1.20.1, module version = 0.5.0
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011Module class: X.Org Video Driver
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011ABI class: X.Org Video Driver, version 24.0
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) LoadModule: "vesa"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Module vesa: vendor="X.Org Foundation"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011compiled for 1.20.4, module version = 2.4.0
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011Module class: X.Org Video Driver
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011ABI class: X.Org Video Driver, version 24.0
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware: driver for VMware SVGA: vmware0405, vmware0710
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) FBDEV: driver for framebuffer: fbdev
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) VESA: driver for VESA chipsets: vesa
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (WW) Falling back to old probe method for modesetting
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (WW) Falling back to old probe method for fbdev
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Loading sub module "fbdevhw"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) LoadModule: "fbdevhw"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Module fbdevhw: vendor="X.Org Foundation"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011compiled for 1.20.13, module version = 0.0.2
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011ABI class: X.Org Video Driver, version 24.1
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (EE) open /dev/fb0: Permission denied
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Creating default Display subsection in Screen section
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011"Default Screen Section" for depth/fbbpp 24/32
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (--) vmware(0): DRM driver version is 2.19.0
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) vmware(0): Depth 24, (--) framebuffer bpp 32
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) vmware(0): RGB weight 888
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) vmware(0): Default visual is TrueColor
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (--) vmware(0): Min width 1, Max Width 8192.
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (--) vmware(0): Min height 1, Max Height 8192.
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual1 has no monitor section
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual2 has no monitor section
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual3 has no monitor section
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual4 has no monitor section
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual5 has no monitor section
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual6 has no monitor section
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual7 has no monitor section
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual8 has no monitor section
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Printing probed modes for output Virtual1
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "800x600"x60.0   42.75  800 850 900 950  600 650 700 750 -hsync +vsync (45.0 kHz eP)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "2560x1440"x60.0  241.50  2560 2608 2640 2720  1440 1443 1448 1481 +hsync -vsync (88.8 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1920x1080"x60.0  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync (67.2 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1280x720"x59.9   74.50  1280 1344 1472 1664  720 723 728 748 -hsync +vsync (44.8 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz e)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): EDID for output Virtual2
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): EDID for output Virtual3
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): EDID for output Virtual4
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): EDID for output Virtual5
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): EDID for output Virtual6
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): EDID for output Virtual7
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): EDID for output Virtual8
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual1 connected
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual2 disconnected
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual3 disconnected
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual4 disconnected
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual5 disconnected
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual6 disconnected
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual7 disconnected
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual8 disconnected
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Using exact sizes for initial modes
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Output Virtual1 using initial mode 800x600 +0+0
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) vmware(0): DPI set to (96, 96)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) vmware(0): Using gamma correction (1.0, 1.0, 1.0)
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Loading sub module "fb"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) LoadModule: "fb"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Loading /usr/lib/xorg/modules/libfb.so
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Module fb: vendor="X.Org Foundation"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011compiled for 1.20.13, module version = 1.0.0
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011ABI class: X.Org ANSI C Emulation, version 0.4
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Loading sub module "dri2"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) LoadModule: "dri2"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Module "dri2" already built-in
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Loading sub module "dri3"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) LoadModule: "dri3"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Module "dri3" already built-in
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) UnloadModule: "modesetting"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Unloading modesetting
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) UnloadModule: "fbdev"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Unloading fbdev
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) UnloadSubModule: "fbdevhw"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Unloading fbdevhw
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) UnloadModule: "vesa"
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Unloading vesa
+Mar 27 14:17:18 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Initialized VMWARE_CTRL extension version 0.2
+Mar 27 14:17:19 guilherme-VirtualBox kernel: [   34.960233] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:19 guilherme-VirtualBox kernel: [   34.960265] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:19 guilherme-VirtualBox systemd-timesyncd[536]: Initial synchronization to time server 185.125.190.57:123 (ntp.ubuntu.com).
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Gallium3D XA version: 2.5.0.
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Path of drm device is "/dev/dri/card0".
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): [DRI2] Setup complete
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): [DRI2]   DRI driver: vmwgfx
+Mar 27 14:17:19 guilherme-VirtualBox goa-daemon[8855]: goa-daemon version 3.36.1 starting
+Mar 27 14:17:19 guilherme-VirtualBox pulseaudio[8775]: Disabling timer-based scheduling because running inside a VM.
+Mar 27 14:17:19 guilherme-VirtualBox rtkit-daemon[3280]: Supervising 4 threads of 2 processes of 2 users.
+Mar 27 14:17:19 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating service name='org.gnome.Identity' requested by ':1.8' (uid=1000 pid=8855 comm="/usr/libexec/goa-daemon " label="unconfined")
+Mar 27 14:17:19 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gnome.OnlineAccounts'
+Mar 27 14:17:19 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Mar 27 14:17:19 guilherme-VirtualBox systemd[8737]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Mar 27 14:17:19 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:17:19 guilherme-VirtualBox systemd[8737]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Mar 27 14:17:19 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gnome.Identity'
+Mar 27 14:17:19 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Mar 27 14:17:19 guilherme-VirtualBox systemd[8737]: Started Virtual filesystem service - Apple File Conduit monitor.
+Mar 27 14:17:19 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:17:19 guilherme-VirtualBox systemd[8737]: Starting Virtual filesystem service - digital camera monitor...
+Mar 27 14:17:19 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Mar 27 14:17:19 guilherme-VirtualBox systemd[8737]: Started Virtual filesystem service - digital camera monitor.
+Mar 27 14:17:19 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:17:19 guilherme-VirtualBox systemd[8737]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Mar 27 14:17:19 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Mar 27 14:17:19 guilherme-VirtualBox systemd[8737]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Mar 27 14:17:19 guilherme-VirtualBox rtkit-daemon[3280]: Successfully made thread 8872 of process 8775 owned by '1000' RT at priority 5.
+Mar 27 14:17:19 guilherme-VirtualBox rtkit-daemon[3280]: Supervising 5 threads of 2 processes of 2 users.
+Mar 27 14:17:19 guilherme-VirtualBox pulseaudio[8775]: Disabling timer-based scheduling because running inside a VM.
+Mar 27 14:17:19 guilherme-VirtualBox rtkit-daemon[3280]: Supervising 5 threads of 2 processes of 2 users.
+Mar 27 14:17:19 guilherme-VirtualBox rtkit-daemon[3280]: Successfully made thread 8913 of process 8775 owned by '1000' RT at priority 5.
+Mar 27 14:17:19 guilherme-VirtualBox rtkit-daemon[3280]: Supervising 6 threads of 2 processes of 2 users.
+Mar 27 14:17:19 guilherme-VirtualBox systemd[8737]: Started Sound Service.
+Mar 27 14:17:19 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:17:19 guilherme-VirtualBox systemd[8737]: Starting Tracker metadata database store and lookup manager...
+Mar 27 14:17:19 guilherme-VirtualBox systemd[8737]: Started Tracker metadata extractor.
+Mar 27 14:17:19 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.Tracker1'
+Mar 27 14:17:19 guilherme-VirtualBox systemd[8737]: Started Tracker metadata database store and lookup manager.
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (--) vmware(0): Render acceleration is enabled.
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) vmware(0): Rendercheck mode is disabled.
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (--) vmware(0): Direct rendering (DRI2 3D) is enabled.
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (--) vmware(0): Direct rendering (DRI3 3D) is enabled.
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) vmware(0): Direct presents are disabled.
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) vmware(0): Hardware only presents are disabled.
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) vmware(0): Backing store enabled
+Mar 27 14:17:19 guilherme-VirtualBox kernel: [   35.352144] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:19 guilherme-VirtualBox kernel: [   35.352174] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) vmware(0): Silken mouse enabled
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (==) vmware(0): DPMS enabled
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension Generic Event Extension
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension SHAPE
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension MIT-SHM
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension XInputExtension
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension XTEST
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension BIG-REQUESTS
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension SYNC
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension XKEYBOARD
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension XC-MISC
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension SECURITY
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension XFIXES
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension RENDER
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension RANDR
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension COMPOSITE
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension DAMAGE
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension MIT-SCREEN-SAVER
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension DOUBLE-BUFFER
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension RECORD
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension DPMS
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension Present
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension DRI3
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension X-Resource
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension XVideo
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension XVideo-MotionCompensation
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension SELinux
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) SELinux: Disabled on system
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension GLX
+Mar 27 14:17:19 guilherme-VirtualBox systemd[8737]: Started Tracker file system data miner.
+Mar 27 14:17:19 guilherme-VirtualBox systemd[8737]: Reached target Main User Target.
+Mar 27 14:17:19 guilherme-VirtualBox systemd[8737]: Startup finished in 1.236s.
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) AIGLX: Loaded and initialized vmwgfx
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) GLX: Initialized DRI2 GL provider for screen 0
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension XFree86-VidModeExtension
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension XFree86-DGA
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension XFree86-DRI
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Initializing extension DRI2
+Mar 27 14:17:19 guilherme-VirtualBox kernel: [   35.384399] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:19 guilherme-VirtualBox kernel: [   35.384435] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:19 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) vmware(0): Setting screen physical size to 211 x 158
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) config/udev: Adding input device Power Button (/dev/input/event0)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Power Button: Applying InputClass "libinput keyboard catchall"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) LoadModule: "libinput"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Module libinput: vendor="X.Org Foundation"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011compiled for 1.20.4, module version = 0.29.0
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011Module class: X.Org XInput Driver
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: #011ABI class: X.Org XInput driver, version 24.1
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Using input driver 'libinput' for 'Power Button'
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 24 paused 0
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Power Button: always reports core events
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "Device" "/dev/input/event0"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "_source" "server/udev"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event0  - Power Button: is tagged by udev as: Keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event0  - Power Button: device is a keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event0  - Power Button: device removed
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "xkb_model" "pc105"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "xkb_layout" "pt"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event0  - Power Button: is tagged by udev as: Keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event0  - Power Button: device is a keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) config/udev: Adding input device Sleep Button (/dev/input/event1)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Using input driver 'libinput' for 'Sleep Button'
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 27 paused 0
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Sleep Button: always reports core events
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "Device" "/dev/input/event1"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "_source" "server/udev"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event1  - Sleep Button: device is a keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event1  - Sleep Button: device removed
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1/event1"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "xkb_model" "pc105"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "xkb_layout" "pt"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event1  - Sleep Button: device is a keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) config/udev: Adding input device Video Bus (/dev/input/event3)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Using input driver 'libinput' for 'Video Bus'
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 28 paused 0
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Video Bus: always reports core events
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "Device" "/dev/input/event3"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "_source" "server/udev"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event3  - Video Bus: is tagged by udev as: Keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event3  - Video Bus: device is a keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event3  - Video Bus: device removed
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input5/event3"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "xkb_model" "pc105"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "xkb_layout" "pt"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event3  - Video Bus: is tagged by udev as: Keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event3  - Video Bus: device is a keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/event6)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) VirtualBox mouse integration: Applying InputClass "libinput pointer catchall"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Using input driver 'libinput' for 'VirtualBox mouse integration'
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 29 paused 0
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) VirtualBox mouse integration: always reports core events
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "Device" "/dev/input/event6"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "_source" "server/udev"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event6  - VirtualBox mouse integration: is tagged by udev as: Mouse
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event6  - VirtualBox mouse integration: device is a pointer
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event6  - VirtualBox mouse integration: device removed
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:04.0/input/input7/event6"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) XINPUT: Adding extended input device "VirtualBox mouse integration" (type: MOUSE, id 9)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "AccelerationScheme" "none"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) VirtualBox mouse integration: (accel) selected scheme none/0
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) VirtualBox mouse integration: (accel) acceleration factor: 2.000
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) VirtualBox mouse integration: (accel) acceleration threshold: 4
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event6  - VirtualBox mouse integration: is tagged by udev as: Mouse
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event6  - VirtualBox mouse integration: device is a pointer
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/js1)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) No input driver specified, ignoring this device.
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) This device may have been added with another device file.
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event5)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 30 paused 0
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) VirtualBox USB Tablet: always reports core events
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "Device" "/dev/input/event5"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "_source" "server/udev"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event5  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event5  - VirtualBox USB Tablet: device is a pointer
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event5  - VirtualBox USB Tablet: device removed
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6/event5"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 10)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "AccelerationScheme" "none"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event5  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event5  - VirtualBox USB Tablet: device is a pointer
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) No input driver specified, ignoring this device.
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) This device may have been added with another device file.
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) No input driver specified, ignoring this device.
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) This device may have been added with another device file.
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 31 paused 0
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) AT Translated Set 2 keyboard: always reports core events
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "Device" "/dev/input/event2"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "_source" "server/udev"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event2  - AT Translated Set 2 keyboard: device removed
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event2"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 11)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "xkb_model" "pc105"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "xkb_layout" "pt"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event4)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "libinput pointer catchall"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 32 paused 0
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "Device" "/dev/input/event4"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "_source" "server/udev"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event4  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event4  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event4  - ImExPS/2 Generic Explorer Mouse: device removed
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input4/event4"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 12)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) Option "AccelerationScheme" "none"
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) ImExPS/2 Generic Explorer Mouse: (accel) selected scheme none/0
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event4  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event4  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) No input driver specified, ignoring this device.
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) This device may have been added with another device file.
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8986]: /etc/gdm3/Xsession: Beginning session setup...
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9008]: localuser:guilherme being added to access control list
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9013]: dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9013]: dbus-update-activation-environment: setting DISPLAY=:0
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9013]: dbus-update-activation-environment: setting XAUTHORITY=/run/user/1000/gdm/Xauthority
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9025]: localuser:guilherme being added to access control list
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9077]: dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9090]: dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting SHELL=/usr/bin/zsh
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting LC_ADDRESS=pt_PT.UTF-8
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting LC_NAME=pt_PT.UTF-8
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting DESKTOP_SESSION=ubuntu
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting LC_MONETARY=pt_PT.UTF-8
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting PWD=/home/guilherme
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=ubuntu
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting LOGNAME=guilherme
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting XAUTHORITY=/run/user/1000/gdm/Xauthority
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting WINDOWPATH=2
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting HOME=/home/guilherme
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting USERNAME=guilherme
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting LC_PAPER=pt_PT.UTF-8
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting LANG=en_US.UTF-8
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=ubuntu:GNOME
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting LC_IDENTIFICATION=pt_PT.UTF-8
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting USER=guilherme
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting DISPLAY=:0
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting SHLVL=1
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting LC_TELEPHONE=pt_PT.UTF-8
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting LC_MEASUREMENT=pt_PT.UTF-8
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting LC_CTYPE=pt_PT.UTF-8
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting LC_TIME=pt_PT.UTF-8
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting PATH=/home/guilherme/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting GDMSESSION=ubuntu
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting LC_NUMERIC=pt_PT.UTF-8
+Mar 27 14:17:20 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[9097]: dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+Mar 27 14:17:21 guilherme-VirtualBox kernel: [   36.882814] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:21 guilherme-VirtualBox kernel: [   36.882859] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:21 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.19' (uid=1000 pid=9182 comm="/usr/libexec/gnome-session-check-accelerated " label="unconfined")
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Starting Accessibility services bus...
+Mar 27 14:17:21 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.a11y.Bus'
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Started Accessibility services bus.
+Mar 27 14:17:21 guilherme-VirtualBox kernel: [   37.103849] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:21 guilherme-VirtualBox kernel: [   37.103900] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Created slice gnome\x2dsession\x2dmanager.slice.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Started Path trigger for Avahi .local domain notifications.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Started Path trigger for Apport crash notifications.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Started Path trigger for new release of Ubuntu notifications.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Condition check resulted in GNOME Initial Setup Copy Worker being skipped.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Starting Start gnome-keyring as SSH agent...
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Starting Start gnome-keyring for the Secrets Service, and PKCS #11...
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Starting Monitor Session leader for GNOME Session...
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Starting Session Migration...
+Mar 27 14:17:21 guilherme-VirtualBox gnome-session-c[9359]: Error creating FIFO: File exists
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Finished Start gnome-keyring as SSH agent.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Started Monitor Session leader for GNOME Session.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: session-migration.service: Succeeded.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Finished Session Migration.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Started OpenSSH Agent.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: ssh-agent.service: Succeeded.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: gnome-keyring.service: Succeeded.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Finished Start gnome-keyring for the Secrets Service, and PKCS #11.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Reached target Session services which should run early before the graphical session is brought up.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Reached target Tasks to be run before GNOME Session starts.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Starting GNOME Session Manager (session: ubuntu)...
+Mar 27 14:17:21 guilherme-VirtualBox gnome-keyring-ssh.desktop[9415]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Mar 27 14:17:21 guilherme-VirtualBox gnome-keyring-secrets.desktop[9420]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Mar 27 14:17:21 guilherme-VirtualBox gnome-keyring-pkcs11.desktop[9425]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Started GNOME Session Manager (session: ubuntu).
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Reached target GNOME Session Manager is ready.
+Mar 27 14:17:21 guilherme-VirtualBox systemd[8737]: Starting GNOME Shell on X11...
+Mar 27 14:17:22 guilherme-VirtualBox kernel: [   37.733959] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:22 guilherme-VirtualBox kernel: [   37.734003] [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Mar 27 14:17:23 guilherme-VirtualBox gnome-shell[9427]: Some code accessed the property 'CredentialManager' on the module 'credentialManager'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Mar 27 14:17:23 guilherme-VirtualBox gnome-shell[9427]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+Mar 27 14:17:23 guilherme-VirtualBox gnome-shell[9427]: Will monitor session 3
+Mar 27 14:17:23 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating service name='org.freedesktop.portal.IBus' requested by ':1.36' (uid=1000 pid=9803 comm="ibus-daemon --panel disable --xim " label="unconfined")
+Mar 27 14:17:23 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.portal.IBus'
+Mar 27 14:17:23 guilherme-VirtualBox at-spi-bus-launcher[9267]: dbus-daemon[9267]: Activating service name='org.a11y.atspi.Registry' requested by ':1.3' (uid=1000 pid=9829 comm="/usr/libexec/ibus-x11 --kill-daemon " label="unconfined")
+Mar 27 14:17:23 guilherme-VirtualBox at-spi-bus-launcher[9267]: dbus-daemon[9267]: Successfully activated service 'org.a11y.atspi.Registry'
+Mar 27 14:17:23 guilherme-VirtualBox at-spi-bus-launcher[9863]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Mar 27 14:17:23 guilherme-VirtualBox systemd[1]: systemd-timedated.service: Succeeded.
+Mar 27 14:17:23 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.35' (uid=1000 pid=9427 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 27 14:17:23 guilherme-VirtualBox systemd[8737]: Starting sandboxed app permission store...
+Mar 27 14:17:23 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating service name='org.gnome.Shell.CalendarServer' requested by ':1.35' (uid=1000 pid=9427 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 27 14:17:23 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Mar 27 14:17:23 guilherme-VirtualBox systemd[8737]: Started sandboxed app permission store.
+Mar 27 14:17:24 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.43' (uid=1000 pid=9912 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+Mar 27 14:17:24 guilherme-VirtualBox systemd[8737]: Starting Evolution source registry...
+Mar 27 14:17:24 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+Mar 27 14:17:24 guilherme-VirtualBox systemd[8737]: Started Evolution source registry.
+Mar 27 14:17:24 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gnome.Shell.CalendarServer'
+Mar 27 14:17:24 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar8' unit='evolution-calendar-factory.service' requested by ':1.43' (uid=1000 pid=9912 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+Mar 27 14:17:24 guilherme-VirtualBox systemd[8737]: Starting Evolution calendar service...
+Mar 27 14:17:24 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating service name='ca.desrt.dconf' requested by ':1.35' (uid=1000 pid=9427 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 27 14:17:24 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'ca.desrt.dconf'
+Mar 27 14:17:24 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+Mar 27 14:17:24 guilherme-VirtualBox systemd[8737]: Started Evolution calendar service.
+Mar 27 14:17:24 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.45' (uid=1000 pid=9973 comm="/usr/libexec/evolution-calendar-factory " label="unconfined")
+Mar 27 14:17:24 guilherme-VirtualBox systemd[8737]: Starting Evolution address book service...
+Mar 27 14:17:24 guilherme-VirtualBox gnome-shell[9427]: Telepathy is not available, chat integration will be disabled.
+Mar 27 14:17:24 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+Mar 27 14:17:24 guilherme-VirtualBox systemd[8737]: Started Evolution address book service.
+Mar 27 14:17:25 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating service name='org.freedesktop.FileManager1' requested by ':1.35' (uid=1000 pid=9427 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 27 14:17:25 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating service name='org.gnome.Shell.Notifications' requested by ':1.35' (uid=1000 pid=9427 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 27 14:17:25 guilherme-VirtualBox pulseaudio[8775]: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 27 14:17:25 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gnome.Shell.Notifications'
+Mar 27 14:17:25 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.FileManager1'
+Mar 27 14:17:25 guilherme-VirtualBox kernel: [   41.536829] ISO 9660 Extensions: Microsoft Joliet Level 3
+Mar 27 14:17:25 guilherme-VirtualBox kernel: [   41.540849] ISO 9660 Extensions: RRIP_1991A
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME Shell on X11.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Shell on X11.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Session is initialized.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME session X11 services.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME X11 Session.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Session (session: ubuntu).
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting Signal initialization done to GNOME Session Manager...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME Accessibility settings...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME Color management...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME Date & Time handling...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME Maintenance of expirable data...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME Keyboard handling...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME Media keys handling...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME Power management handling...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME Printer notifications...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME RFKill handling...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME Freedesktop screensaver handling...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME Sharing handling...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[1]: Created slice system-clean\x2dmount\x2dpoint.slice.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[1]: Finished Clean the /media/guilherme/VBox_GAs_6.1.26 mount point.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME Smartcard handling...
+Mar 27 14:17:26 guilherme-VirtualBox udisksd[628]: Mounted /dev/sr0 at /media/guilherme/VBox_GAs_6.1.26 on behalf of uid 1000
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME Sound sample caching handling...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME USB protection handling...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME Wacom handling...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME WWan management...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Starting GNOME XSettings...
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: gnome-session-signal-init.service: Succeeded.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Finished Signal initialization done to GNOME Session Manager.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME Accessibility settings.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME Maintenance of expirable data.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Accessibility settings.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Maintenance of expirable data.
+Mar 27 14:17:26 guilherme-VirtualBox vmware-user.desktop[10375]: vmware-user: could not open /proc/fs/vmblock/dev
+Mar 27 14:17:26 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923046.5594] agent-manager: agent[9c86f92d0e957374,:1.80/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Mar 27 14:17:26 guilherme-VirtualBox gnome-session-binary[9369]: Entering running state
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME Freedesktop screensaver handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Freedesktop screensaver handling.
+Mar 27 14:17:26 guilherme-VirtualBox kernel: [   42.135431] rfkill: input handler disabled
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME RFKill handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME RFKill handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME Date & Time handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Date & Time handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME Keyboard handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Keyboard handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME Sharing handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Sharing handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME Sound sample caching handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Sound sample caching handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME Color management.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Color management.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME USB protection handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME USB protection handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME Smartcard handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Smartcard handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME Wacom handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Wacom handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME Media keys handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Media keys handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME WWan management.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME WWan management.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME Printer notifications.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Printer notifications.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Started GNOME Power management handling.
+Mar 27 14:17:26 guilherme-VirtualBox systemd[8737]: Reached target GNOME Power management handling.
+Mar 27 14:17:26 guilherme-VirtualBox vmware-user.desktop[10375]: Error: /usr/bin/vmtoolsd must be run inside a virtual machine on a VMware hypervisor product.
+Mar 27 14:17:27 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.74' (uid=1000 pid=10450 comm="/snap/bin/snap-store --gapplication-service " label="unconfined")
+Mar 27 14:17:27 guilherme-VirtualBox systemd[8737]: Starting flatpak document portal service...
+Mar 27 14:17:27 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.portal.Documents'
+Mar 27 14:17:27 guilherme-VirtualBox systemd[8737]: Started flatpak document portal service.
+Mar 27 14:17:27 guilherme-VirtualBox systemd[8737]: Started snap.snap-store.snap-store.76020685-bcce-4f22-9ddf-b48996cdb91d.scope.
+Mar 27 14:17:27 guilherme-VirtualBox kernel: [   42.756369] audit: type=1400 audit(1679923047.191:47): apparmor="DENIED" operation="capable" profile="/snap/snapd/18596/usr/lib/snapd/snap-confine" pid=10450 comm="snap-confine" capability=4  capname="fsetid"
+Mar 27 14:17:27 guilherme-VirtualBox systemd[8737]: tmp-snap.rootfs_mhj85l.mount: Succeeded.
+Mar 27 14:17:27 guilherme-VirtualBox systemd[3219]: tmp-snap.rootfs_mhj85l.mount: Succeeded.
+Mar 27 14:17:27 guilherme-VirtualBox systemd[1]: tmp-snap.rootfs_mhj85l.mount: Succeeded.
+Mar 27 14:17:27 guilherme-VirtualBox gnome-shell[9427]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Mar 27 14:17:27 guilherme-VirtualBox gsd-media-keys[10265]: Failed to grab accelerator for keybinding settings:playback-repeat
+Mar 27 14:17:27 guilherme-VirtualBox gsd-media-keys[10265]: Failed to grab accelerator for keybinding settings:hibernate
+Mar 27 14:17:27 guilherme-VirtualBox gsd-media-keys[10265]: Failed to grab accelerator for keybinding settings:rfkill
+Mar 27 14:17:27 guilherme-VirtualBox gsd-media-keys[10265]: Failed to grab accelerator for keybinding settings:playback-random
+Mar 27 14:17:27 guilherme-VirtualBox gsd-color[10249]: failed to get edid: unable to get EDID for output
+Mar 27 14:17:27 guilherme-VirtualBox colord[4485]: failed to get session [pid 10249]: No data available
+Mar 27 14:17:27 guilherme-VirtualBox gsd-color[10249]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Mar 27 14:17:27 guilherme-VirtualBox gsd-color[4135]: no xrandr-Virtual1 device found: Failed to find output xrandr-Virtual1
+Mar 27 14:17:27 guilherme-VirtualBox systemd[8737]: Started GNOME XSettings.
+Mar 27 14:17:27 guilherme-VirtualBox systemd[8737]: Reached target GNOME XSettings.
+Mar 27 14:17:27 guilherme-VirtualBox systemd[8737]: Reached target GNOME Session.
+Mar 27 14:17:27 guilherme-VirtualBox systemd[8737]: Reached target GNOME X11 Session (session: ubuntu).
+Mar 27 14:17:27 guilherme-VirtualBox systemd[8737]: Reached target Current graphical user session.
+Mar 27 14:17:27 guilherme-VirtualBox systemd[8737]: Condition check resulted in GNOME Initial Setup being skipped.
+Mar 27 14:17:27 guilherme-VirtualBox systemd[8737]: Condition check resulted in GNOME Welcome Tour being skipped.
+Mar 27 14:17:30 guilherme-VirtualBox systemd[8737]: tracker-extract.service: Succeeded.
+Mar 27 14:17:30 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Mar 27 14:17:30 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Mar 27 14:17:30 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Mar 27 14:17:30 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Mar 27 14:17:30 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Mar 27 14:17:30 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Mar 27 14:17:30 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Mar 27 14:17:30 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Mar 27 14:17:30 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Mar 27 14:17:31 guilherme-VirtualBox gnome-shell[9427]: GNOME Shell started at Mon Mar 27 2023 14:17:24 GMT+0100 (WEST)
+Mar 27 14:17:31 guilherme-VirtualBox gnome-shell[9427]: Registering session with GDM
+Mar 27 14:17:31 guilherme-VirtualBox gnome-session[3291]: gnome-session-binary[3291]: WARNING: Lost name on bus: org.gnome.SessionManager
+Mar 27 14:17:32 guilherme-VirtualBox systemd[3219]: pulseaudio.service: Succeeded.
+Mar 27 14:17:32 guilherme-VirtualBox systemd[1]: session-c1.scope: Succeeded.
+Mar 27 14:17:32 guilherme-VirtualBox kernel: [   48.261366] audit: type=1326 audit(1679923052.697:48): auid=1000 uid=1000 gid=1000 ses=4 subj=? pid=10450 comm="snap-store" exe="/snap/snap-store/638/usr/bin/snap-store" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7f55bd15b73d code=0x50000
+Mar 27 14:17:32 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.76' (uid=1000 pid=10450 comm="/snap/snap-store/638/usr/bin/snap-store --gapplica" label="snap.snap-store.snap-store (enforce)")
+Mar 27 14:17:32 guilherme-VirtualBox systemd[8737]: Starting Portal service...
+Mar 27 14:17:32 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.77' (uid=1000 pid=11267 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+Mar 27 14:17:32 guilherme-VirtualBox systemd[8737]: Starting Portal service (GTK+/GNOME implementation)...
+Mar 27 14:17:33 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+Mar 27 14:17:33 guilherme-VirtualBox systemd[8737]: Started Portal service (GTK+/GNOME implementation).
+Mar 27 14:17:33 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.portal.Desktop'
+Mar 27 14:17:33 guilherme-VirtualBox systemd[8737]: Started Portal service.
+Mar 27 14:17:33 guilherme-VirtualBox dbus-daemon[587]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.99' (uid=1000 pid=10450 comm="/snap/snap-store/638/usr/bin/snap-store --gapplica" label="snap.snap-store.snap-store (enforce)")
+Mar 27 14:17:33 guilherme-VirtualBox systemd[1]: Starting Firmware update daemon...
+Mar 27 14:17:33 guilherme-VirtualBox fwupd[11438]: 13:17:33:0966 FuPluginTpm          failed to load eventlog: Failed to open file "/sys/kernel/security/tpm0/binary_bios_measurements": No such file or directory
+Mar 27 14:17:34 guilherme-VirtualBox dbus-daemon[587]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Mar 27 14:17:34 guilherme-VirtualBox systemd[1]: Started Firmware update daemon.
+Mar 27 14:17:34 guilherme-VirtualBox fwupd[11438]: 13:17:34:0291 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+Mar 27 14:17:34 guilherme-VirtualBox kernel: [   49.908566] audit: type=1107 audit(1679923054.346:49): pid=587 uid=103 auid=4294967295 ses=4294967295 subj=? msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.4" pid=10450 label="snap.snap-store.snap-store" peer_pid=610 peer_label="unconfined"
+Mar 27 14:17:34 guilherme-VirtualBox kernel: [   49.908566]  exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+Mar 27 14:17:34 guilherme-VirtualBox kernel: [   49.908580] audit: type=1420 audit(1679923054.346:50): subj_apparmor=unconfined
+Mar 27 14:17:34 guilherme-VirtualBox kernel: [   49.909674] audit: type=1107 audit(1679923054.346:51): pid=587 uid=103 auid=4294967295 ses=4294967295 subj=? msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.4" pid=10450 label="snap.snap-store.snap-store" peer_pid=610 peer_label="unconfined"
+Mar 27 14:17:34 guilherme-VirtualBox kernel: [   49.909674]  exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+Mar 27 14:17:34 guilherme-VirtualBox kernel: [   49.909686] audit: type=1420 audit(1679923054.346:52): subj_apparmor=unconfined
+Mar 27 14:17:34 guilherme-VirtualBox snap-store[10450]: enabled plugins: fwupd, os-release, packagekit-refine-repos, packagekit-refresh, appstream, hardcoded-blocklist, hardcoded-popular, modalias, packagekit, rewrite-resource, provenance, snap, systemd-updates, generic-updates, provenance-license, icons
+Mar 27 14:17:34 guilherme-VirtualBox snap-store[10450]: disabled plugins: dpkg, dummy, fedora-langpacks, fedora-pkgdb-collections, repos
+Mar 27 14:17:34 guilherme-VirtualBox kernel: [   49.916082] audit: type=1107 audit(1679923054.354:53): pid=587 uid=103 auid=4294967295 ses=4294967295 subj=? msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.4" pid=10450 label="snap.snap-store.snap-store" peer_pid=610 peer_label="unconfined"
+Mar 27 14:17:34 guilherme-VirtualBox kernel: [   49.916082]  exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+Mar 27 14:17:34 guilherme-VirtualBox kernel: [   49.916095] audit: type=1420 audit(1679923054.354:54): subj_apparmor=unconfined
+Mar 27 14:17:34 guilherme-VirtualBox kernel: [   49.917055] audit: type=1107 audit(1679923054.354:55): pid=587 uid=103 auid=4294967295 ses=4294967295 subj=? msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.4" pid=10450 label="snap.snap-store.snap-store" peer_pid=610 peer_label="unconfined"
+Mar 27 14:17:34 guilherme-VirtualBox kernel: [   49.917055]  exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+Mar 27 14:17:34 guilherme-VirtualBox kernel: [   49.917067] audit: type=1420 audit(1679923054.354:56): subj_apparmor=unconfined
+Mar 27 14:17:35 guilherme-VirtualBox systemd[8737]: Started Application launched by gnome-shell.
+Mar 27 14:17:35 guilherme-VirtualBox snap-store[10450]: /etc/PackageKit/Vendor.conf file not found
+Mar 27 14:17:35 guilherme-VirtualBox kernel: [   50.755561] audit: type=1400 audit(1679923055.195:57): apparmor="DENIED" operation="open" profile="snap.snap-store.snap-store" name="/etc/PackageKit/Vendor.conf" pid=10450 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Mar 27 14:17:35 guilherme-VirtualBox systemd[1]: fprintd.service: Succeeded.
+Mar 27 14:17:35 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.79' (uid=1000 pid=11773 comm="/usr/bin/gnome-terminal.real --window " label="unconfined")
+Mar 27 14:17:35 guilherme-VirtualBox systemd[8737]: Created slice apps.slice.
+Mar 27 14:17:35 guilherme-VirtualBox systemd[8737]: Created slice apps-org.gnome.Terminal.slice.
+Mar 27 14:17:35 guilherme-VirtualBox systemd[8737]: Starting GNOME Terminal Server...
+Mar 27 14:17:36 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gnome.Terminal'
+Mar 27 14:17:36 guilherme-VirtualBox systemd[8737]: Started GNOME Terminal Server.
+Mar 27 14:17:36 guilherme-VirtualBox systemd[8737]: Started VTE child process 11949 launched by gnome-terminal-server process 11838.
+Mar 27 14:17:36 guilherme-VirtualBox systemd[8737]: gnome-launched-org.gnome.Terminal.desktop-11721.scope: Succeeded.
+Mar 27 14:17:39 guilherme-VirtualBox gsd-color[10249]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Mar 27 14:17:40 guilherme-VirtualBox gsd-color[10249]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Mar 27 14:17:40 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Mar 27 14:17:40 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Mar 27 14:17:40 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Mar 27 14:17:40 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Mar 27 14:17:40 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Mar 27 14:17:40 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Mar 27 14:17:40 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Mar 27 14:17:40 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Mar 27 14:17:40 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Mar 27 14:17:40 guilherme-VirtualBox gsd-color[10249]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Mar 27 14:17:40 guilherme-VirtualBox gsd-color[10249]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Mar 27 14:17:41 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Mar 27 14:17:41 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Mar 27 14:17:41 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Mar 27 14:17:41 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Mar 27 14:17:41 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Mar 27 14:17:41 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Mar 27 14:17:41 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Mar 27 14:17:41 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Mar 27 14:17:41 guilherme-VirtualBox gnome-shell[9427]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Mar 27 14:17:42 guilherme-VirtualBox systemd[1]: Stopping User Manager for UID 125...
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopped target Main User Target.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopping D-Bus User Message Bus...
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopping Virtual filesystem service - Apple File Conduit monitor...
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopping Virtual filesystem service...
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopping Virtual filesystem service - GNOME Online Accounts monitor...
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopping Virtual filesystem service - digital camera monitor...
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopping Virtual filesystem service - Media Transfer Protocol monitor...
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopping Virtual filesystem service - disk device monitor...
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopping Tracker file system data miner...
+Mar 27 14:17:42 guilherme-VirtualBox tracker-miner-fs[3267]: Received signal:15->'Terminated'
+Mar 27 14:17:42 guilherme-VirtualBox systemd[1]: run-user-125-gvfs.mount: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[8737]: run-user-125-gvfs.mount: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopping Tracker metadata database store and lookup manager...
+Mar 27 14:17:42 guilherme-VirtualBox tracker-miner-fs[3267]: OK
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: run-user-125-gvfs.mount: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: tracker-miner-fs.service: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopped Tracker file system data miner.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: dbus.service: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopped D-Bus User Message Bus.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: gvfs-daemon.service: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopped Virtual filesystem service.
+Mar 27 14:17:42 guilherme-VirtualBox tracker-store[3543]: Received signal:15->'Terminated'
+Mar 27 14:17:42 guilherme-VirtualBox tracker-store[3543]: OK
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: gvfs-udisks2-volume-monitor.service: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopped Virtual filesystem service - disk device monitor.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: gvfs-goa-volume-monitor.service: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopped Virtual filesystem service - GNOME Online Accounts monitor.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: gvfs-afc-volume-monitor.service: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopped Virtual filesystem service - Apple File Conduit monitor.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: gvfs-gphoto2-volume-monitor.service: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopped Virtual filesystem service - digital camera monitor.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: gvfs-mtp-volume-monitor.service: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopped Virtual filesystem service - Media Transfer Protocol monitor.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: tracker-store.service: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopped Tracker metadata database store and lookup manager.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopped target Basic System.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopped target Paths.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: ubuntu-report.path: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopped Pending report trigger for Ubuntu Report.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopped target Sockets.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Stopped target Timers.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: dbus.socket: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Closed D-Bus User Message Bus Socket.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: dirmngr.socket: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Closed GnuPG network certificate management daemon.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: gpg-agent-browser.socket: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: gpg-agent-extra.socket: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: gpg-agent-ssh.socket: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: gpg-agent.socket: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Closed GnuPG cryptographic agent and passphrase cache.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: pk-debconf-helper.socket: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Closed debconf communication socket.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: pulseaudio.socket: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Closed Sound System.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: snapd.session-agent.socket: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Closed REST API socket for snapd user session agent.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Reached target Shutdown.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: systemd-exit.service: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Finished Exit the Session.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[3219]: Reached target Exit the Session.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[1]: user@125.service: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[1]: Stopped User Manager for UID 125.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[1]: Stopping User Runtime Directory /run/user/125...
+Mar 27 14:17:42 guilherme-VirtualBox systemd[1]: run-user-125.mount: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[8737]: run-user-125.mount: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[1]: user-runtime-dir@125.service: Succeeded.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[1]: Stopped User Runtime Directory /run/user/125.
+Mar 27 14:17:42 guilherme-VirtualBox systemd[1]: Removed slice User Slice of UID 125.
+Mar 27 14:17:50 guilherme-VirtualBox systemd[1]: Starting Online ext4 Metadata Check for All Filesystems...
+Mar 27 14:17:51 guilherme-VirtualBox systemd[1]: e2scrub_all.service: Succeeded.
+Mar 27 14:17:51 guilherme-VirtualBox systemd[1]: Finished Online ext4 Metadata Check for All Filesystems.
+Mar 27 14:17:56 guilherme-VirtualBox systemd[1]: systemd-hostnamed.service: Succeeded.
+Mar 27 14:17:56 guilherme-VirtualBox systemd[1]: systemd-localed.service: Succeeded.
+Mar 27 14:17:57 guilherme-VirtualBox tracker-store[8922]: OK
+Mar 27 14:17:57 guilherme-VirtualBox systemd[8737]: tracker-store.service: Succeeded.
+Mar 27 14:18:02 guilherme-VirtualBox PackageKit: refresh-cache transaction /505_cacecbcd from uid 1000 finished with need-untrusted after 25943ms
+Mar 27 14:18:02 guilherme-VirtualBox snap-store[10450]: not handling error not-supported for action refresh: W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target Translations (main/i18n/Translation-en_US.UTF-8) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target DEP-11 (main/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target DEP-11-icons-small (main/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target DEP-11-icons-hidpi (main/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target CNF (main/cnf/Commands-amd64) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3
+Mar 27 14:18:03 guilherme-VirtualBox geoclue[4071]: Service not used for 60 seconds. Shutting down..
+Mar 27 14:18:03 guilherme-VirtualBox systemd[1]: geoclue.service: Succeeded.
+Mar 27 14:18:05 guilherme-VirtualBox kernel: [   80.719880] kauditd_printk_skb: 1 callbacks suppressed
+Mar 27 14:18:05 guilherme-VirtualBox kernel: [   80.719884] audit: type=1400 audit(1679923085.215:59): apparmor="DENIED" operation="open" profile="snap.snap-store.snap-store" name="/var/lib/snapd/hostfs/usr/share/gdm/greeter/applications/gnome-initial-setup.desktop" pid=10450 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Mar 27 14:18:05 guilherme-VirtualBox kernel: [   80.886342] audit: type=1400 audit(1679923085.384:60): apparmor="DENIED" operation="open" profile="snap.snap-store.snap-store" name="/var/lib/snapd/hostfs/usr/share/gdm/greeter/applications/gnome-initial-setup.desktop" pid=10450 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Mar 27 14:18:06 guilherme-VirtualBox kernel: [   81.553183] audit: type=1326 audit(1679923086.049:61): auid=1000 uid=1000 gid=1000 ses=4 subj=? pid=10450 comm="pool-org.gnome." exe="/snap/snap-store/638/usr/bin/snap-store" sig=0 arch=c000003e syscall=93 compat=0 ip=0x7f55bd15239b code=0x50000
+Mar 27 14:18:06 guilherme-VirtualBox snap-store[10450]: adding wildcard app */*/*/org.gnome.Builder.desktop/* to plugin cache
+Mar 27 14:18:06 guilherme-VirtualBox snap-store[10450]: adding wildcard app */*/*/org.gnome.Calculator.desktop/* to plugin cache
+Mar 27 14:18:06 guilherme-VirtualBox snap-store[10450]: adding wildcard app */*/*/org.gnome.clocks.desktop/* to plugin cache
+Mar 27 14:18:06 guilherme-VirtualBox snap-store[10450]: adding wildcard app */*/*/org.gnome.Dictionary.desktop/* to plugin cache
+Mar 27 14:18:06 guilherme-VirtualBox snap-store[10450]: adding wildcard app */*/*/org.gnome.Documents.desktop/* to plugin cache
+Mar 27 14:18:06 guilherme-VirtualBox snap-store[10450]: adding wildcard app */*/*/org.gnome.Evince/* to plugin cache
+Mar 27 14:18:06 guilherme-VirtualBox snap-store[10450]: adding wildcard app */*/*/org.gnome.gedit.desktop/* to plugin cache
+Mar 27 14:18:06 guilherme-VirtualBox snap-store[10450]: adding wildcard app */*/*/org.gnome.Maps.desktop/* to plugin cache
+Mar 27 14:18:06 guilherme-VirtualBox snap-store[10450]: adding wildcard app */*/*/org.gnome.Weather/* to plugin cache
+Mar 27 14:18:06 guilherme-VirtualBox snap-store[10450]: Only 0 apps for recent list, hiding
+Mar 27 14:18:08 guilherme-VirtualBox snapd[620]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "code", "core", "core20", "gnome-3-34-1804", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd"
+Mar 27 14:18:09 guilherme-VirtualBox PackageKit: refresh-cache transaction /506_cbccaacb from uid 1000 finished with cancelled-priority after 6193ms
+Mar 27 14:18:09 guilherme-VirtualBox snap-store[10450]: not handling error failed for action refresh: W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target Translations (main/i18n/Translation-en_US.UTF-8) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target DEP-11 (main/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target DEP-11-icons-small (main/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target DEP-11-icons-hidpi (main/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target CNF (main/cnf/Commands-amd64) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/microsoft-edge-dev.list:3#012E: Failed to fetch https://packages.microsoft.com/repos/edge/dists/stable/InRelease  #012E: Some index files failed to download. They have been ignored, or old ones used instead.
+Mar 27 14:18:09 guilherme-VirtualBox snapd[620]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "code", "core", "core20", "gnome-3-34-1804", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd"
+Mar 27 14:18:10 guilherme-VirtualBox snapd[620]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "code", "core", "core20", "gnome-3-34-1804", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd"
+Mar 27 14:18:13 guilherme-VirtualBox PackageKit: resolve transaction /507_ccecbada from uid 1000 finished with success after 4297ms
+Mar 27 14:18:14 guilherme-VirtualBox PackageKit: refresh-cache transaction /508_abeeeabb from uid 1000 finished with cancelled-priority after 830ms
+Mar 27 14:18:14 guilherme-VirtualBox snap-store[10450]: not handling error failed for action refresh: E: Failed to fetch http://pt.archive.ubuntu.com/ubuntu/dists/focal/InRelease  #012E: Failed to fetch http://pt.archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease  #012E: Failed to fetch http://pt.archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease  #012E: Failed to fetch http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease  #012E: Failed to fetch https://packages.microsoft.com/repos/edge/dists/stable/InRelease  #012E: Some index files failed to download. They have been ignored, or old ones used instead.
+Mar 27 14:18:14 guilherme-VirtualBox snapd[620]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "code", "core", "core20", "gnome-3-34-1804", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd"
+Mar 27 14:18:18 guilherme-VirtualBox PackageKit: get-updates transaction /509_dbcacbde from uid 1000 finished with success after 3848ms
+Mar 27 14:18:19 guilherme-VirtualBox PackageKit: search-file transaction /510_ccdcbeae from uid 1000 finished with success after 1624ms
+Mar 27 14:18:20 guilherme-VirtualBox PackageKit: search-file transaction /511_dabeaedd from uid 1000 finished with success after 817ms
+Mar 27 14:18:21 guilherme-VirtualBox PackageKit: get-updates transaction /512_ebcdccec from uid 1000 finished with success after 983ms
+Mar 27 14:18:22 guilherme-VirtualBox PackageKit: get-details transaction /513_aeebadad from uid 1000 finished with success after 777ms
+Mar 27 14:18:25 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.35' (uid=1000 pid=9427 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 27 14:18:25 guilherme-VirtualBox systemd[8737]: Starting Virtual filesystem metadata service...
+Mar 27 14:18:25 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gtk.vfs.Metadata'
+Mar 27 14:18:25 guilherme-VirtualBox systemd[8737]: Started Virtual filesystem metadata service.
+Mar 27 14:18:34 guilherme-VirtualBox systemd[1]: man-db.service: Succeeded.
+Mar 27 14:18:34 guilherme-VirtualBox systemd[1]: Finished Daily man-db regeneration.
+Mar 27 14:18:34 guilherme-VirtualBox systemd[1]: Startup finished in 1.422s (kernel) + 1min 48.419s (userspace) = 1min 49.841s.
+Mar 27 14:19:34 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:19:34 guilherme-VirtualBox systemd[8737]: Starting Tracker metadata database store and lookup manager...
+Mar 27 14:19:34 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.Tracker1'
+Mar 27 14:19:34 guilherme-VirtualBox systemd[8737]: Started Tracker metadata database store and lookup manager.
+Mar 27 14:20:05 guilherme-VirtualBox tracker-store[24369]: OK
+Mar 27 14:20:05 guilherme-VirtualBox systemd[8737]: tracker-store.service: Succeeded.
+Mar 27 14:20:06 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:20:06 guilherme-VirtualBox systemd[8737]: Starting Tracker metadata database store and lookup manager...
+Mar 27 14:20:06 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.Tracker1'
+Mar 27 14:20:06 guilherme-VirtualBox systemd[8737]: Started Tracker metadata database store and lookup manager.
+Mar 27 14:20:37 guilherme-VirtualBox tracker-store[24396]: OK
+Mar 27 14:20:37 guilherme-VirtualBox systemd[8737]: tracker-store.service: Succeeded.
+Mar 27 14:21:49 guilherme-VirtualBox anacron[578]: Job `cron.daily' started
+Mar 27 14:21:49 guilherme-VirtualBox anacron[24423]: Updated timestamp for job `cron.daily' to 2023-03-27
+Mar 27 14:21:49 guilherme-VirtualBox cracklib: no dictionary update necessary.
+Mar 27 14:21:49 guilherme-VirtualBox anacron[578]: Job `cron.daily' terminated (mailing output)
+Mar 27 14:21:49 guilherme-VirtualBox anacron[578]: anacron: Can't find sendmail at /usr/sbin/sendmail, not mailing output
+Mar 27 14:21:49 guilherme-VirtualBox anacron[578]: Can't find sendmail at /usr/sbin/sendmail, not mailing output
+Mar 27 14:21:49 guilherme-VirtualBox systemd[1]: anacron.service: Succeeded.
+Mar 27 14:21:49 guilherme-VirtualBox anacron[578]: Normal exit (1 job run)
+Mar 27 14:21:53 guilherme-VirtualBox dbus-daemon[587]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.25' (uid=0 pid=620 comm="/usr/lib/snapd/snapd " label="unconfined")
+Mar 27 14:21:53 guilherme-VirtualBox systemd[1]: Starting Time & Date Service...
+Mar 27 14:21:53 guilherme-VirtualBox dbus-daemon[587]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Mar 27 14:21:53 guilherme-VirtualBox systemd[1]: Started Time & Date Service.
+Mar 27 14:21:54 guilherme-VirtualBox snapd[620]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "code", "core", "core20", "gnome-3-34-1804", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd"
+Mar 27 14:21:57 guilherme-VirtualBox systemd[1]: Reloading.
+Mar 27 14:21:57 guilherme-VirtualBox systemd[1]: Mounting Mount unit for core18, revision 2721...
+Mar 27 14:21:57 guilherme-VirtualBox kernel: [  313.232320] loop19: detected capacity change from 0 to 113896
+Mar 27 14:21:57 guilherme-VirtualBox systemd[1]: Mounted Mount unit for core18, revision 2721.
+Mar 27 14:21:58 guilherme-VirtualBox systemd[1]: snap-core18-2708.mount: Succeeded.
+Mar 27 14:21:58 guilherme-VirtualBox systemd[8737]: snap-core18-2708.mount: Succeeded.
+Mar 27 14:21:58 guilherme-VirtualBox systemd[1]: Reloading.
+Mar 27 14:21:58 guilherme-VirtualBox systemd[1]: Starting Daily apt upgrade and clean activities...
+Mar 27 14:21:59 guilherme-VirtualBox snapd[620]: storehelpers.go:769: cannot refresh snap "core18": snap has no updates available
+Mar 27 14:22:24 guilherme-VirtualBox systemd[1]: systemd-timedated.service: Succeeded.
+Mar 27 14:23:23 guilherme-VirtualBox PackageKit: daemon quit
+Mar 27 14:23:23 guilherme-VirtualBox systemd[1]: packagekit.service: Succeeded.
+Mar 27 14:25:34 guilherme-VirtualBox dbus-daemon[587]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.110' (uid=0 pid=24923 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Mar 27 14:25:34 guilherme-VirtualBox systemd[1]: Starting PackageKit Daemon...
+Mar 27 14:25:34 guilherme-VirtualBox PackageKit: daemon start
+Mar 27 14:25:34 guilherme-VirtualBox dbus-daemon[587]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Mar 27 14:25:34 guilherme-VirtualBox systemd[1]: Started PackageKit Daemon.
+Mar 27 14:25:51 guilherme-VirtualBox kernel: [  546.650808] SGI XFS with ACLs, security attributes, realtime, quota, no debug enabled
+Mar 27 14:25:51 guilherme-VirtualBox kernel: [  546.661599] JFS: nTxBlock = 8192, nTxLock = 65536
+Mar 27 14:25:51 guilherme-VirtualBox kernel: [  546.682551] ntfs: driver 2.1.32 [Flags: R/O MODULE].
+Mar 27 14:25:51 guilherme-VirtualBox kernel: [  546.707549] QNX4 filesystem 0.2.3 registered.
+Mar 27 14:25:51 guilherme-VirtualBox kernel: [  546.786361] raid6: avx2x4   gen() 22011 MB/s
+Mar 27 14:25:51 guilherme-VirtualBox kernel: [  546.853945] raid6: avx2x4   xor()  6106 MB/s
+Mar 27 14:25:51 guilherme-VirtualBox kernel: [  546.921553] raid6: avx2x2   gen() 24748 MB/s
+Mar 27 14:25:51 guilherme-VirtualBox kernel: [  546.990113] raid6: avx2x2   xor() 11521 MB/s
+Mar 27 14:25:51 guilherme-VirtualBox kernel: [  547.057705] raid6: avx2x1   gen() 13973 MB/s
+Mar 27 14:25:51 guilherme-VirtualBox kernel: [  547.126307] raid6: avx2x1   xor() 12900 MB/s
+Mar 27 14:25:51 guilherme-VirtualBox kernel: [  547.193858] raid6: sse2x4   gen() 12811 MB/s
+Mar 27 14:25:51 guilherme-VirtualBox kernel: [  547.261444] raid6: sse2x4   xor()  6021 MB/s
+Mar 27 14:25:51 guilherme-VirtualBox kernel: [  547.330991] raid6: sse2x2   gen() 16669 MB/s
+Mar 27 14:25:51 guilherme-VirtualBox kernel: [  547.398588] raid6: sse2x2   xor()  8224 MB/s
+Mar 27 14:25:51 guilherme-VirtualBox kernel: [  547.466179] raid6: sse2x1   gen() 12474 MB/s
+Mar 27 14:25:52 guilherme-VirtualBox kernel: [  547.533756] raid6: sse2x1   xor()  6570 MB/s
+Mar 27 14:25:52 guilherme-VirtualBox kernel: [  547.533761] raid6: using algorithm avx2x2 gen() 24748 MB/s
+Mar 27 14:25:52 guilherme-VirtualBox kernel: [  547.533763] raid6: .... xor() 11521 MB/s, rmw enabled
+Mar 27 14:25:52 guilherme-VirtualBox kernel: [  547.533764] raid6: using avx2x2 recovery algorithm
+Mar 27 14:25:52 guilherme-VirtualBox kernel: [  547.542381] xor: automatically using best checksumming function   avx       
+Mar 27 14:25:52 guilherme-VirtualBox kernel: [  547.600622] Btrfs loaded, crc32c=crc32c-intel, zoned=yes, fsverity=yes
+Mar 27 14:25:52 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sda1
+Mar 27 14:25:52 guilherme-VirtualBox 05efi: debug: Not on UEFI platform
+Mar 27 14:25:52 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sda1
+Mar 27 14:25:52 guilherme-VirtualBox 10freedos: debug: /dev/sda1 is a FAT32 partition
+Mar 27 14:25:52 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sda1
+Mar 27 14:25:52 guilherme-VirtualBox 10qnx: debug: /dev/sda1 is not a QNX4 partition: exiting
+Mar 27 14:25:52 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sda1
+Mar 27 14:25:52 guilherme-VirtualBox macosx-prober: debug: /dev/sda1 is not an HFS+ partition: exiting
+Mar 27 14:25:52 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sda1
+Mar 27 14:25:52 guilherme-VirtualBox 20microsoft: debug: /dev/sda1 is a FAT32 partition
+Mar 27 14:25:52 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sda1
+Mar 27 14:25:52 guilherme-VirtualBox 30utility: debug: /dev/sda1 is a FAT32 partition
+Mar 27 14:25:52 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sda1
+Mar 27 14:25:52 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sda1
+Mar 27 14:25:52 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sda1
+Mar 27 14:25:52 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sda1
+Mar 27 14:25:52 guilherme-VirtualBox 83haiku: debug: /dev/sda1 is not a BeFS partition: exiting
+Mar 27 14:25:52 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sda1
+Mar 27 14:25:52 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sda1
+Mar 27 14:25:52 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda2
+Mar 27 14:25:52 guilherme-VirtualBox 50mounted-tests: debug: /dev/sda2 type not recognised; skipping
+Mar 27 14:25:52 guilherme-VirtualBox os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Mar 27 14:27:33 guilherme-VirtualBox update-notifier.desktop[33025]: /var/lib/dpkg/lock:
+Mar 27 14:28:00 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sda1
+Mar 27 14:28:00 guilherme-VirtualBox 05efi: debug: Not on UEFI platform
+Mar 27 14:28:00 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sda1
+Mar 27 14:28:00 guilherme-VirtualBox 10freedos: debug: /dev/sda1 is a FAT32 partition
+Mar 27 14:28:00 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sda1
+Mar 27 14:28:00 guilherme-VirtualBox 10qnx: debug: /dev/sda1 is not a QNX4 partition: exiting
+Mar 27 14:28:00 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sda1
+Mar 27 14:28:00 guilherme-VirtualBox macosx-prober: debug: /dev/sda1 is not an HFS+ partition: exiting
+Mar 27 14:28:00 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sda1
+Mar 27 14:28:00 guilherme-VirtualBox 20microsoft: debug: /dev/sda1 is a FAT32 partition
+Mar 27 14:28:00 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sda1
+Mar 27 14:28:00 guilherme-VirtualBox 30utility: debug: /dev/sda1 is a FAT32 partition
+Mar 27 14:28:00 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sda1
+Mar 27 14:28:00 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sda1
+Mar 27 14:28:00 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sda1
+Mar 27 14:28:00 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sda1
+Mar 27 14:28:00 guilherme-VirtualBox 83haiku: debug: /dev/sda1 is not a BeFS partition: exiting
+Mar 27 14:28:00 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sda1
+Mar 27 14:28:00 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sda1
+Mar 27 14:28:00 guilherme-VirtualBox os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda2
+Mar 27 14:28:00 guilherme-VirtualBox 50mounted-tests: debug: /dev/sda2 type not recognised; skipping
+Mar 27 14:28:00 guilherme-VirtualBox os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Mar 27 14:28:09 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:28:09 guilherme-VirtualBox systemd[8737]: Starting Tracker metadata database store and lookup manager...
+Mar 27 14:28:09 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.Tracker1'
+Mar 27 14:28:09 guilherme-VirtualBox systemd[8737]: Started Tracker metadata database store and lookup manager.
+Mar 27 14:28:10 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:28:10 guilherme-VirtualBox systemd[8737]: Starting Tracker metadata extractor...
+Mar 27 14:28:10 guilherme-VirtualBox tracker-extract[35136]: Set scheduler policy to SCHED_IDLE
+Mar 27 14:28:10 guilherme-VirtualBox tracker-extract[35136]: Setting priority nice level to 19
+Mar 27 14:28:10 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Mar 27 14:28:10 guilherme-VirtualBox systemd[8737]: Started Tracker metadata extractor.
+Mar 27 14:28:20 guilherme-VirtualBox systemd[8737]: tracker-extract.service: Succeeded.
+Mar 27 14:28:45 guilherme-VirtualBox tracker-store[35118]: OK
+Mar 27 14:28:45 guilherme-VirtualBox systemd[8737]: tracker-store.service: Succeeded.
+Mar 27 14:29:10 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:29:10 guilherme-VirtualBox systemd[8737]: Starting Tracker metadata database store and lookup manager...
+Mar 27 14:29:10 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.Tracker1'
+Mar 27 14:29:10 guilherme-VirtualBox systemd[8737]: Started Tracker metadata database store and lookup manager.
+Mar 27 14:29:10 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:29:10 guilherme-VirtualBox systemd[8737]: Starting Tracker metadata extractor...
+Mar 27 14:29:10 guilherme-VirtualBox tracker-extract[42545]: Set scheduler policy to SCHED_IDLE
+Mar 27 14:29:10 guilherme-VirtualBox tracker-extract[42545]: Setting priority nice level to 19
+Mar 27 14:29:10 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Mar 27 14:29:10 guilherme-VirtualBox systemd[8737]: Started Tracker metadata extractor.
+Mar 27 14:29:25 guilherme-VirtualBox systemd[8737]: tracker-extract.service: Succeeded.
+Mar 27 14:29:44 guilherme-VirtualBox systemd[1]: Reloading.
+Mar 27 14:29:45 guilherme-VirtualBox systemd[1]: message repeated 3 times: [ Reloading.]
+Mar 27 14:29:46 guilherme-VirtualBox systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+Mar 27 14:29:47 guilherme-VirtualBox systemd[1]: Reloading.
+Mar 27 14:29:49 guilherme-VirtualBox tracker-store[42538]: OK
+Mar 27 14:29:49 guilherme-VirtualBox systemd[8737]: tracker-store.service: Succeeded.
+Mar 27 14:29:55 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Reloaded configuration
+Mar 27 14:29:55 guilherme-VirtualBox dbus-daemon[8790]: message repeated 12 times: [ [session uid=1000 pid=8790] Reloaded configuration]
+Mar 27 14:30:01 guilherme-VirtualBox CRON[44674]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Mar 27 14:30:32 guilherme-VirtualBox update-notifier.desktop[46083]: /var/lib/dpkg/lock:
+Mar 27 14:31:22 guilherme-VirtualBox systemd[1]: Reloading.
+Mar 27 14:31:23 guilherme-VirtualBox systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+Mar 27 14:31:23 guilherme-VirtualBox dbus-daemon[587]: Unknown group "power" in message bus configuration file
+Mar 27 14:31:23 guilherme-VirtualBox dbus-daemon[587]: [system] Reloaded configuration
+Mar 27 14:31:23 guilherme-VirtualBox systemd[1]: Stopped target Sockets.
+Mar 27 14:31:23 guilherme-VirtualBox systemd[1]: Stopping Sockets.
+Mar 27 14:31:23 guilherme-VirtualBox systemd[1]: Condition check resulted in Unix socket for apport crash forwarding being skipped.
+Mar 27 14:31:23 guilherme-VirtualBox systemd[1]: Reached target Sockets.
+Mar 27 14:31:23 guilherme-VirtualBox systemd[1]: Reloading.
+Mar 27 14:31:23 guilherme-VirtualBox systemd[1]: ua-timer.service: Succeeded.
+Mar 27 14:31:23 guilherme-VirtualBox systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Mar 27 14:31:45 guilherme-VirtualBox systemd[1]: Starting Cleanup of Temporary Directories...
+Mar 27 14:31:45 guilherme-VirtualBox systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Mar 27 14:31:45 guilherme-VirtualBox systemd[1]: Finished Cleanup of Temporary Directories.
+Mar 27 14:33:02 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating service name='org.gnome.Nautilus' requested by ':1.35' (uid=1000 pid=9427 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 27 14:33:02 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gnome.Nautilus'
+Mar 27 14:33:03 guilherme-VirtualBox dbus-daemon[587]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.217' (uid=1000 pid=56424 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Mar 27 14:33:03 guilherme-VirtualBox systemd[1]: Starting Hostname Service...
+Mar 27 14:33:03 guilherme-VirtualBox dbus-daemon[587]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Mar 27 14:33:03 guilherme-VirtualBox systemd[1]: Started Hostname Service.
+Mar 27 14:33:03 guilherme-VirtualBox nautilus[56424]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Mar 27 14:33:05 guilherme-VirtualBox /usr/lib/gdm3/gdm-x-session[8842]: (II) event4  - ImExPS/2 Generic Explorer Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+Mar 27 14:33:31 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating service name='org.gnome.gedit' requested by ':1.91' (uid=1000 pid=56424 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Mar 27 14:33:31 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.gnome.gedit'
+Mar 27 14:33:33 guilherme-VirtualBox systemd[1]: systemd-hostnamed.service: Succeeded.
+Mar 27 14:33:33 guilherme-VirtualBox update-notifier.desktop[57046]: /var/cache/apt/archives/lock:
+Mar 27 14:33:38 guilherme-VirtualBox gsd-color[10249]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Reloaded configuration
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:33:42 guilherme-VirtualBox systemd[8737]: Starting Tracker metadata database store and lookup manager...
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Reloaded configuration
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: message repeated 3 times: [ [session uid=1000 pid=8790] Reloaded configuration]
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.Tracker1'
+Mar 27 14:33:42 guilherme-VirtualBox systemd[8737]: Started Tracker metadata database store and lookup manager.
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Reloaded configuration
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.1' (uid=1000 pid=8779 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Mar 27 14:33:42 guilherme-VirtualBox systemd[8737]: Starting Tracker metadata extractor...
+Mar 27 14:33:42 guilherme-VirtualBox tracker-extract[57220]: Set scheduler policy to SCHED_IDLE
+Mar 27 14:33:42 guilherme-VirtualBox tracker-extract[57220]: Setting priority nice level to 19
+Mar 27 14:33:42 guilherme-VirtualBox dbus-daemon[8790]: [session uid=1000 pid=8790] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Mar 27 14:33:42 guilherme-VirtualBox systemd[8737]: Started Tracker metadata extractor.
+Mar 27 14:33:47 guilherme-VirtualBox systemd[1]: Started Run anacron jobs.
+Mar 27 14:33:47 guilherme-VirtualBox anacron[57509]: Anacron 2.3 started on 2023-03-27
+Mar 27 14:33:47 guilherme-VirtualBox anacron[57509]: Normal exit (0 jobs run)
+Mar 27 14:33:47 guilherme-VirtualBox systemd[1]: anacron.service: Succeeded.
+Mar 27 14:33:53 guilherme-VirtualBox systemd[8737]: tracker-extract.service: Succeeded.

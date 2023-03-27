@@ -1,0 +1,10 @@
+Mar 27 14:16:49 guilherme-VirtualBox rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="617" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1103] hostname: hostname: using hostnamed
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1103] hostname: hostname changed from (none) to "guilherme-VirtualBox"
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1106] dns-mgr[0x5603a1ab3290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1110] manager[0x5603a1acc030]: rfkill: Wi-Fi hardware radio set enabled
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1110] manager[0x5603a1acc030]: rfkill: WWAN hardware radio set enabled
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1214] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1250] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1259] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Mar 27 14:16:49 guilherme-VirtualBox NetworkManager[588]: <info>  [1679923009.1270] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
