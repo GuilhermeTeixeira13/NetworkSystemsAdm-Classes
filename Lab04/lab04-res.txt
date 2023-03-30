@@ -1,0 +1,43 @@
+Resolução Lab 04
+
+
+1) cat /etc/hosts /etc/hostname
+
+2) cat /etc/hosts /etc/hostname
+
+3) cat /etc/hosts /etc/hostname > resultado.txt
+
+4) less /etc/passwd
+
+5) less /etc/passwd | grep usr
+
+6) cp /usr/share/dict/words .
+  6.1) split -l 1000 words
+  6.2) split -l 2000 words
+  
+7) cat -n /home/guilherme/Documents/newhome.txt
+
+8) head /home/guilherme/Documents/newhome.txt
+  8.1) head -n 5 /home/guilherme/Documents/newhome.txt
+  
+9) tail /home/guilherme/Documents/newhome.txt
+  9.1) tail -n 5 /home/guilherme/Documents/newhome.txt
+  
+10) tail +500 words
+
+11) head -n 20 words > primeiro_ficheiro.txt
+    tail -n 20 words > segundo_ficheiro.txt
+    11.1) paste -d "-" primeiro_ficheiro.txt segundo_ficheiro.txt > novo_ficheiro.txt
+    
+12) sort /home/guilherme/Documents/adjectives.txt
+
+13) tr '[:lower:]' '[:upper:]' < /home/guilherme/Documents/adjectives.txt > adjectives_upper.txt
+  13.1) tr 'e' '3' < /home/guilherme/Documents/adjectives.txt > adjectives_3.txt
+  
+14) grep "root" /etc/passwd
+  14.1) grep "bash$" /etc/passwd
+  14.2) grep "^.*b.*h$" /etc/passwd
+  14.3) grep "[2-6]" /etc/passwd
+
+15) grep "^ag.*g$" /usr/share/dist/words
+
