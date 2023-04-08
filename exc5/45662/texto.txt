@@ -1,0 +1,21 @@
+carro, bicicleta, computador, celular, televisão, sapato,
+mochila, livro, caneta, mesa, cadeira, sofá,
+cama, almofada, camiseta, calça, casaco, chapéu, 
+óculos, relógio, arca, frigorifico, mesa, tapete
+carro, bicicleta, computador, celular, televisão, sapato, 
+mochila, livro, caneta, mesa, cadeira, sofá, 
+cama, almofada, camiseta, calça, casaco, chapéu, 
+óculos, relógio, arca, frigorifico, mesa, tapete
+carro, bicicleta, computador, celular, televisão, sapato, 
+mochila, livro, caneta, mesa, cadeira, sofá, 
+cama, almofada, camiseta, calça, casaco, chapéu, 
+óculos, relógio, arca, frigorifico, mesa, tapete
+carro, bicicleta, computador, celular, televisão, sapato, 
+mochila, livro, caneta, mesa, cadeira, sofá, 
+cama, almofada, camiseta, calça, casaco, chapéu, 
+óculos, relógio, arca, frigorifico, mesa, tapete
+carro, bicicleta, computador, celular, televisão, sapato, 
+mochila, livro, caneta, mesa, cadeira, sofá, 
+cama, almofada, camiseta, calça, casaco, chapéu, 
+óculos, relógio, arca, frigorifico, mesa, tapete
+
