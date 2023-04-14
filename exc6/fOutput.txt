@@ -1,0 +1,7 @@
+/home/guilherme/Desktop/NetworkSystemsAdm-UBI/exc6/.teste.swp
+/home/guilherme/Desktop/NetworkSystemsAdm-UBI/exc6/Foutput1.txt
+/home/guilherme/Desktop/NetworkSystemsAdm-UBI/exc6/ls_output.txt
+/home/guilherme/Desktop/NetworkSystemsAdm-UBI/exc6/.teste.swo
+/home/guilherme/Desktop/NetworkSystemsAdm-UBI/exc6/FOutput2.txt
+/home/guilherme/Desktop/NetworkSystemsAdm-UBI/exc6/teste
+/home/guilherme/Desktop/NetworkSystemsAdm-UBI/exc6/fOutput.txt
