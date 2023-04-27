@@ -1,7 +1,0 @@
-count.txt
-Foutput1.txt
-FOutput2.txt
-fOutput.txt
-ls_output.txt
-meusHosts.txt
-teste
